@@ -1,0 +1,4171 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Stimulsoft.Report.WpfDesign</name>
+    </assembly>
+    <members>
+        <member name="T:Stimulsoft.Report.WpfDesign.Chart.StiCloudChartConditionsCollectionControl">
+            <summary>
+            StiCloudChartConditionsCollectionControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Chart.StiCloudChartConditionsCollectionControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Chart.StiCloudChartConditionZoneControl">
+            <summary>
+            StiCloudChartConditionZoneControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Chart.StiCloudChartConditionZoneControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Chart.Editor.StiChartTrendLinesZoneControl">
+            <summary>
+            StiChartTrendLinesZoneControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Chart.Editor.StiChartTrendLinesZoneControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Chart.Editor.StiCloudChartTrendLinesCollectionControl">
+            <summary>
+            StiCloudChartTrendLinesCollectionControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Chart.Editor.StiCloudChartTrendLinesCollectionControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Chart.Editor.StiCloudDrilldownPageWindow">
+            <summary>
+            StiCloudDrilldownPageWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Chart.Editor.StiCloudDrilldownPageWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Chart.StiCloudAreaControl">
+            <summary>
+            StiCloudAreaControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Chart.StiCloudAreaControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Chart.StiCloudChartControl">
+            <summary>
+            StiCloudChartControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Chart.StiCloudChartControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Chart.StiCloudChartWindow">
+            <summary>
+            StiCloudChartWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Chart.StiCloudChartWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Chart.StiCloudLabelsControl">
+            <summary>
+            StiCloudLabelsControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Chart.StiCloudLabelsControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Chart.StiCloudSeriesControl">
+            <summary>
+            StiCloudSeriesControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Chart.StiCloudSeriesControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Chart.StiCloudStylesControl">
+            <summary>
+            StiCloudStylesControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Chart.StiCloudStylesControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Chart.StiCloudChartFiltersCollectionControl">
+            <summary>
+            StiCloudChartFiltersCollectionControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Chart.StiCloudChartFiltersCollectionControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Chart.StiCloudChartFilterZoneControl">
+            <summary>
+            StiCloudChartFilterZoneControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Chart.StiCloudChartFilterZoneControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Chart.StiCloudPageListOfValuesControl">
+            <summary>
+            StiCloudPageListOfValuesControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Chart.StiCloudPageListOfValuesControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Chart.StiCloudTreeViewBoxSourceControl">
+            <summary>
+            StiCloudTreeViewBoxSourceControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Chart.StiCloudTreeViewBoxSourceControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Chart.StiCloudChartAxesControl">
+            <summary>
+            StiCloudChartAxesControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Chart.StiCloudChartAxesControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Chart.StiCloudChartLabelsControl">
+            <summary>
+            StiCloudChartLabelsControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Chart.StiCloudChartLabelsControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Chart.StiCloudChartLegendControl">
+            <summary>
+            StiCloudChartLegendControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Chart.StiCloudChartLegendControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Chart.StiCloudChartStylesControl">
+            <summary>
+            StiCloudChartStylesControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Chart.StiCloudChartStylesControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Chart.StiCloudChartTypesControl">
+            <summary>
+            StiCloudChartTypesControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Chart.StiCloudChartTypesControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Chart.StiCloudChartWizardWindow">
+            <summary>
+            StiCloudChartWizardWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Chart.StiCloudChartWizardWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfChartDesigner">
+            <summary>
+            Class describes designer of the component - StiChart.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfChartDesigner.Design(Stimulsoft.Report.Components.StiComponent)">
+            <summary>
+            Invokes a component designer.
+            </summary>
+            <param name="component">Component for edition.</param>
+            <returns>The result of invokes the component designer.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfChartDesigner.#ctor(Stimulsoft.Report.Design.IStiDesignerBase)">
+            <summary>
+            Creates a new designer of the component.
+            </summary>
+            <param name="designer">Report designer.</param>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Check.StiCheckControl">
+            <summary>
+            StiCheckControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Check.StiCheckControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Check.StiCheckSettingsWindow">
+            <summary>
+            StiCheckSettingsWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Check.StiCheckSettingsWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Check.StiCheckStatusControl">
+            <summary>
+            StiCheckStatusControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Check.StiCheckStatusControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Check.StiChecksViewerWindow">
+            <summary>
+            StiChecksViewerWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Check.StiChecksViewerWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiChecksBalloonUserControl">
+            <summary>
+            StiChecksBalloonUserControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiChecksBalloonUserControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Design.StiColorScaleConditionZoneControl">
+            <summary>
+            StiColorScaleConditionZoneControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Design.StiColorScaleConditionZoneControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Design.StiConditionsEditorWindow">
+            <summary>
+            StiConditionsEditorWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Design.StiConditionsEditorWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Design.StiDataBarConditionZoneControl">
+            <summary>
+            StiDataBarConditionZoneControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Design.StiDataBarConditionZoneControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Design.StiIconSetConditionZoneControl">
+            <summary>
+            StiIconSetConditionZoneControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Design.StiIconSetConditionZoneControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiConditionItemZoneControl">
+            <summary>
+            StiConditionItemZoneControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiConditionItemZoneControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiConditionZoneControl">
+            <summary>
+            StiConditionZoneControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiConditionZoneControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Components.ImageEditor.StiFontIconSelectionControl">
+            <summary>
+            StiFontIconSelectionControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Components.ImageEditor.StiFontIconSelectionControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Components.StiDeleteUsedResourceWindow">
+            <summary>
+            StiDeleteUsedResourceWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Components.StiDeleteUsedResourceWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Components.StiElectronicSignatureEditorWindow">
+            <summary>
+            StiElectronicSignatureEditorWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Components.StiElectronicSignatureEditorWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Components.StiShapeEditorWindow">
+            <summary>
+            StiShapeEditorWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Components.StiShapeEditorWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Components.StiSignatureImageEditorWindow">
+            <summary>
+            StiSignatureImageEditorWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Components.StiSignatureImageEditorWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Components.StiSignatureTextEditorWindow">
+            <summary>
+            StiSignatureTextEditorWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Components.StiSignatureTextEditorWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Components.StiWpfSparklineEditorWindow">
+            <summary>
+            StiWpfSparklineEditorWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Components.StiWpfSparklineEditorWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Components.StiWpfTableOfContentsEditorWindow">
+            <summary>
+            StiWpfTableOfContentsEditorWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Components.StiWpfTableOfContentsEditorWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiBandWindow">
+            <summary>
+            StiBandWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiBandWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiBarCodeEditorWindow">
+            <summary>
+            StiBarCodeEditorWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiBarCodeEditorWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiColorCollectionEditorWindow">
+            <summary>
+            StiColorCollectionEditorWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiColorCollectionEditorWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiColorCollectionZoneControl">
+            <summary>
+            StiColorCollectionZoneControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiColorCollectionZoneControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiContainerSelectWindow">
+            <summary>
+            StiContainerSelectWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiContainerSelectWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiDataSelectionControl">
+            <summary>
+            StiDataSelectionControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiDataSelectionControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiInteractionDrillDownPageSelectWindow">
+            <summary>
+            StiInteractionDrillDownPageSelectWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiInteractionDrillDownPageSelectWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiPageSetupWindow">
+            <summary>
+            StiPageSetupWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiPageSetupWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiSimpleImageEditorWindow">
+            <summary>
+            StiSimpleImageEditorWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiSimpleImageEditorWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiSubReportPageSelectWindow">
+            <summary>
+            StiSubReportPageSelectWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiSubReportPageSelectWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWatermarkControl">
+            <summary>
+            StiWatermarkControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWatermarkControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfBandDesigner">
+            <summary>
+            Class describes designer of the component - StiBand.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfBandDesigner.GetActionFromPoint(System.Double,System.Double,Stimulsoft.Report.Components.StiComponent)">
+            <summary>
+            Returns StiAction for specified component from point.
+            </summary>
+            <param name="x">x coordinate.</param>
+            <param name="y">y coordinate.</param>
+            <param name="component">Component for checking.</param>
+            <returns>Action for this point.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfBandDesigner.PointInRect(Stimulsoft.Report.Design.IStiDesignerBase,Stimulsoft.Report.Components.StiComponent,System.Int32,System.Int32)">
+            <summary>
+            Returns the action fits to the position of a point in the specified rectangle.
+            </summary>
+            <param name="x">X point.</param>
+            <param name="y">Y point.</param>
+            <returns>Action.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfBandDesigner.#ctor(Stimulsoft.Report.Design.IStiDesignerBase)">
+            <summary>
+            Creates a new designer of the component.
+            </summary>
+            <param name="designer">Report designer.</param>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfBarCodeDesigner">
+            <summary>
+            Class describes designer of the component - StiBarCode.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfBarCodeDesigner.Design(Stimulsoft.Report.Components.StiComponent)">
+            <summary>
+            Invokes a component designer.
+            </summary>
+            <param name="component">Component for edition.</param>
+            <returns>The result of invokes the component designer.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfBarCodeDesigner.#ctor(Stimulsoft.Report.Design.IStiDesignerBase)">
+            <summary>
+            Creates a new designer of the component.
+            </summary>
+            <param name="designer">Report designer.</param>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfCloneDesigner">
+            <summary>
+            Class describes designer of the component - StiClone.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfCloneDesigner.Design(Stimulsoft.Report.Components.StiComponent)">
+            <summary>
+            Invokes a component designer.
+            </summary>
+            <param name="component">Component for edition.</param>
+            <returns>The result of invokes the component designer.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfCloneDesigner.#ctor(Stimulsoft.Report.Design.IStiDesignerBase)">
+            <summary>
+            Creates a new designer of the component.
+            </summary>
+            <param name="designer">Report designer.</param>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfDataBandDesigner">
+            <summary>
+            Class describes designer of the component - StiDataBand.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfDataBandDesigner.Design(Stimulsoft.Report.Components.StiComponent)">
+            <summary>
+            Invokes a component designer.
+            </summary>
+            <param name="component">Component for edition.</param>
+            <returns>The result of invokes the component designer.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfDataBandDesigner.#ctor(Stimulsoft.Report.Design.IStiDesignerBase)">
+            <summary>
+            Creates a new designer of the component.
+            </summary>
+            <param name="designer">Report designer.</param>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfElectronicSignatureDesigner">
+            <summary>
+            Class describes designer of the component - StiWpfElectronicSignatureDesigner.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfElectronicSignatureDesigner.Design(Stimulsoft.Report.Components.StiComponent)">
+            <summary>
+            Invokes a component designer.
+            </summary>
+            <param name="component">Component for edition.</param>
+            <returns>The result of invokes the component designer.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfElectronicSignatureDesigner.#ctor(Stimulsoft.Report.Design.IStiDesignerBase)">
+            <summary>
+            Creates a new designer of the component.
+            </summary>
+            <param name="designer">Report designer.</param>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfGroupHeaderBandDesigner">
+            <summary>
+            Class describes designer of the component - StiGroupHeaderBand.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfGroupHeaderBandDesigner.Design(Stimulsoft.Report.Components.StiComponent)">
+            <summary>
+            Invokes a component designer.
+            </summary>
+            <param name="component">Component for edition.</param>
+            <returns>The result of invokes the component designer.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfGroupHeaderBandDesigner.#ctor(Stimulsoft.Report.Design.IStiDesignerBase)">
+            <summary>
+            Creates a new designer of the component.
+            </summary>
+            <param name="designer">Report designer.</param>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfHorizontalLinePrimitiveDesigner">
+            <summary>
+            Class describes designer of the component - StiHorizontalLinePrimitive.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfHorizontalLinePrimitiveDesigner.GetActionFromPoint(System.Double,System.Double,Stimulsoft.Report.Components.StiComponent)">
+            <summary>
+            Returns StiAction for specified component from point.
+            </summary>
+            <param name="x">x coordinate.</param>
+            <param name="y">y coordinate.</param>
+            <param name="component">Component for checking.</param>
+            <returns>Action for this point.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfHorizontalLinePrimitiveDesigner.PointInRect(Stimulsoft.Report.Design.IStiDesignerBase,Stimulsoft.Report.Components.StiComponent,System.Int32,System.Int32)">
+            <summary>
+            Returns the action fits to the position of a point in the specified rectangle.
+            </summary>
+            <param name="x">X point.</param>
+            <param name="y">Y point.</param>
+            <returns>Action.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfHorizontalLinePrimitiveDesigner.#ctor(Stimulsoft.Report.Design.IStiDesignerBase)">
+            <summary>
+            Creates a new designer of the component.
+            </summary>
+            <param name="designer">Report designer.</param>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfImageDesigner">
+            <summary>
+            Class describes designer of the component - StiImage.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfImageDesigner.Design(Stimulsoft.Report.Components.StiComponent)">
+            <summary>
+            Invokes a component designer.
+            </summary>
+            <param name="component">Component for edition.</param>
+            <returns>The result of invokes the component designer.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfImageDesigner.#ctor(Stimulsoft.Report.Design.IStiDesignerBase)">
+            <summary>
+            Creates a new designer of the component.
+            </summary>
+            <param name="designer">Report designer.</param>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfImageEditorWindow">
+            <summary>
+            StiWpfImageEditorWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfImageEditorWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfPageDesigner">
+            <summary>
+            Class describes designer of the component - StiPage.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfPageDesigner.Design(Stimulsoft.Report.Components.StiComponent)">
+            <summary>
+            Invokes a component designer.
+            </summary>
+            <param name="component">Component for edition.</param>
+            <returns>The result of invokes the component designer.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfPageDesigner.#ctor(Stimulsoft.Report.Design.IStiDesignerBase)">
+            <summary>
+            Creates a new designer of the component.
+            </summary>
+            <param name="designer">Report designer.</param>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfPdfDigitalSignatureDesigner">
+            <summary>
+            Class describes designer of the component - StiPdfDigitalSignature.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfPdfDigitalSignatureDesigner.Design(Stimulsoft.Report.Components.StiComponent)">
+            <summary>
+            Invokes a component designer.
+            </summary>
+            <param name="component">Component for edition.</param>
+            <returns>The result of invokes the component designer.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfPdfDigitalSignatureDesigner.#ctor(Stimulsoft.Report.Design.IStiDesignerBase)">
+            <summary>
+            Creates a new designer of the component.
+            </summary>
+            <param name="designer">Report designer.</param>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfPointPrimitiveDesigner">
+            <summary>
+            Class describes designer of the component - StiEndPointPrimitiveDesigner.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfPointPrimitiveDesigner.GetActionFromPoint(System.Double,System.Double,Stimulsoft.Report.Components.StiComponent)">
+            <summary>
+            Returns StiAction for specified component from point.
+            </summary>
+            <param name="x">x coordinate.</param>
+            <param name="y">y coordinate.</param>
+            <param name="component">Component for checking.</param>
+            <returns>Action for this point.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfPointPrimitiveDesigner.PointInRect(Stimulsoft.Report.Design.IStiDesignerBase,Stimulsoft.Report.Components.StiComponent,System.Int32,System.Int32)">
+            <summary>
+            Returns the action fits to the position of a point in the specified rectangle.
+            </summary>
+            <param name="x">X point.</param>
+            <param name="y">Y point.</param>
+            <returns>Action.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfPointPrimitiveDesigner.#ctor(Stimulsoft.Report.Design.IStiDesignerBase)">
+            <summary>
+            Creates a new designer of the component.
+            </summary>
+            <param name="designer">Report designer.</param>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfRectanglePrimitiveDesigner">
+            <summary>
+            Class describes designer of the component - StiRectanglePrimitive.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfRectanglePrimitiveDesigner.GetActionFromPoint(System.Double,System.Double,Stimulsoft.Report.Components.StiComponent)">
+            <summary>
+            Returns StiAction for specified component from point.
+            </summary>
+            <param name="x">x coordinate.</param>
+            <param name="y">y coordinate.</param>
+            <param name="component">Component for checking.</param>
+            <returns>Action for this point.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfRectanglePrimitiveDesigner.PointInRect(Stimulsoft.Report.Design.IStiDesignerBase,Stimulsoft.Report.Components.StiComponent,System.Int32,System.Int32)">
+            <summary>
+            Returns the action fits to the position of a point in the specified rectangle.
+            </summary>
+            <param name="x">X point.</param>
+            <param name="y">Y point.</param>
+            <returns>Action.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfRectanglePrimitiveDesigner.#ctor(Stimulsoft.Report.Design.IStiDesignerBase)">
+            <summary>
+            Creates a new designer of the component.
+            </summary>
+            <param name="designer">Report designer.</param>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfRichTextDesigner">
+            <summary>
+            Class describes designer of the component - StiRichText.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfRichTextDesigner.Design(Stimulsoft.Report.Components.StiComponent)">
+            <summary>
+            Invokes a component designer.
+            </summary>
+            <param name="component">Component for edition.</param>
+            <returns>The result of invokes the component designer.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfRichTextDesigner.#ctor(Stimulsoft.Report.Design.IStiDesignerBase)">
+            <summary>
+            Creates a new designer of the component.
+            </summary>
+            <param name="designer">Report designer.</param>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfShapeDesigner">
+            <summary>
+            Class describes designer of the component - StiShape.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfShapeDesigner.Design(Stimulsoft.Report.Components.StiComponent)">
+            <summary>
+            Invokes a component designer.
+            </summary>
+            <param name="component">Component for edition.</param>
+            <returns>The result of invokes the component designer.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfShapeDesigner.#ctor(Stimulsoft.Report.Design.IStiDesignerBase)">
+            <summary>
+            Creates a new designer of the component.
+            </summary>
+            <param name="designer">Report designer.</param>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfSparklineDesigner">
+            <summary>
+            This class describes a designer of the Sparkline component.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfSparklineDesigner.#ctor(Stimulsoft.Report.Design.IStiDesignerBase)">
+            <summary>
+            Creates a new designer of the component.
+            </summary>
+            <param name="designer">A report designer.</param>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfSubReportDesigner">
+            <summary>
+            Class describes designer of the component - StiSubReport.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfSubReportDesigner.Design(Stimulsoft.Report.Components.StiComponent)">
+            <summary>
+            Invokes a component designer.
+            </summary>
+            <param name="component">Component for edition.</param>
+            <returns>The result of invokes the component designer.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfSubReportDesigner.#ctor(Stimulsoft.Report.Design.IStiDesignerBase)">
+            <summary>
+            Creates a new designer of the component.
+            </summary>
+            <param name="designer">Report designer.</param>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfTableOfContentsDesigner">
+            <summary>
+            This class describes a designer of the TableOfContents component.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfTableOfContentsDesigner.CreateEditorForm(System.Object)">
+            <summary>
+            Invokes a component designer.
+            </summary>
+            <param name="component">Component for edition.</param>
+            <returns>The result of invokes the component designer.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfTableOfContentsDesigner.#ctor(Stimulsoft.Report.Design.IStiDesignerBase)">
+            <summary>
+            Creates a new designer of the component.
+            </summary>
+            <param name="designer">Report designer.</param>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfTextDesigner">
+            <summary>
+            Class describes designer of the component - StiText.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfTextDesigner.Design(Stimulsoft.Report.Components.StiComponent)">
+            <summary>
+            Invokes a component designer.
+            </summary>
+            <param name="component">Component for edition.</param>
+            <returns>The result of invokes the component designer.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfTextDesigner.#ctor(Stimulsoft.Report.Design.IStiDesignerBase)">
+            <summary>
+            Creates a new designer of the component.
+            </summary>
+            <param name="designer">Report designer.</param>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfVerticalLinePrimitiveDesigner">
+            <summary>
+            Class describes designer of the component - StiVerticalLinePrimitive.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfVerticalLinePrimitiveDesigner.GetActionFromPoint(System.Double,System.Double,Stimulsoft.Report.Components.StiComponent)">
+            <summary>
+            Returns StiAction for specified component from point.
+            </summary>
+            <param name="x">x coordinate.</param>
+            <param name="y">y coordinate.</param>
+            <param name="component">Component for checking.</param>
+            <returns>Action for this point.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfVerticalLinePrimitiveDesigner.PointInRect(Stimulsoft.Report.Design.IStiDesignerBase,Stimulsoft.Report.Components.StiComponent,System.Int32,System.Int32)">
+            <summary>
+            Returns the action fits to the position of a point in the specified rectangle.
+            </summary>
+            <param name="x">X point.</param>
+            <param name="y">Y point.</param>
+            <returns>Action.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfVerticalLinePrimitiveDesigner.#ctor(Stimulsoft.Report.Design.IStiDesignerBase)">
+            <summary>
+            Creates a new designer of the component.
+            </summary>
+            <param name="designer">Report designer.</param>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiBooleanEditor">
+            <summary>
+            StiBooleanEditor
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiBooleanEditor.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiCurrencyEditor">
+            <summary>
+            StiCurrencyEditor
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiCurrencyEditor.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiCustomEditor">
+            <summary>
+            StiCustomEditor
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiCustomEditor.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiDateEditor">
+            <summary>
+            StiDateEditor
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiDateEditor.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiNumberEditor">
+            <summary>
+            StiNumberEditor
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiNumberEditor.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiPercentageEditor">
+            <summary>
+            StiPercentageEditor
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiPercentageEditor.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiTextFormatEditorWindow">
+            <summary>
+            StiTextFormatEditorWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiTextFormatEditorWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiTimeEditor">
+            <summary>
+            StiTimeEditor
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiTimeEditor.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfAlignCTService.PageType">
+            <summary>
+            Returns the type of page with which works this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfAlignCTService.GroupCategory">
+            <summary>
+            Gets value for group items menu.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfAlignCTService.Position">
+            <summary>
+            Gets position of the item in menu.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfAlignCTService.GetInterfaceType">
+            <summary>
+            Returns the type of interface with which works this service.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfAlignCTService.CreateMenuItem(Stimulsoft.Report.WpfDesign.StiWpfDesignerControl)">
+            <summary>
+            Creates the item a menu for this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfClearContentCTService.PageType">
+            <summary>
+            Returns the type of page with which works this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfClearContentCTService.GroupCategory">
+            <summary>
+            Gets value for group items menu.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfClearContentCTService.Position">
+            <summary>
+            Gets position of the item in menu.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfClearContentCTService.GetInterfaceType">
+            <summary>
+            Returns the type of interface with which works this service.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfClearContentCTService.CreateMenuItem(Stimulsoft.Report.WpfDesign.StiWpfDesignerControl)">
+            <summary>
+            Creates the item a menu for this service.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfCTService">
+            <summary>
+            Describes the base class for building context menu of designer.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfCTService.ServiceCategory">
+            <summary>
+            Gets a service category.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfCTService.ServiceType">
+            <summary>
+            Gets a service type.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfCTService.GetInterfaceType">
+            <summary>
+            Returns the type of interface with which works this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfCTService.PageType">
+            <summary>
+            Returns the type of page with which works this service.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfCTService.CreateMenuItem(Stimulsoft.Report.WpfDesign.StiWpfDesignerControl)">
+            <summary>
+            Creates the item a menu for this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfCTService.GroupCategory">
+            <summary>
+            Gets value for group items menu.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfCTService.Position">
+            <summary>
+            Gets position of the item in menu.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfDesignComponentCTService.PageType">
+            <summary>
+            Returns the type of page with which works this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfDesignComponentCTService.GroupCategory">
+            <summary>
+            Gets value for group items menu.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfDesignComponentCTService.Position">
+            <summary>
+            Gets position of the item in menu.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfDesignComponentCTService.GetInterfaceType">
+            <summary>
+            Returns the type of interface with which works this service.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfDesignComponentCTService.CreateMenuItem(Stimulsoft.Report.WpfDesign.StiWpfDesignerControl)">
+            <summary>
+            Creates the item a menu for this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfInteractionCTService.PageType">
+            <summary>
+            Returns the type of page with which works this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfInteractionCTService.GroupCategory">
+            <summary>
+            Gets value for group items menu.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfInteractionCTService.Position">
+            <summary>
+            Gets position of the item in menu.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfInteractionCTService.GetInterfaceType">
+            <summary>
+            Returns the type of interface with which works this service.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfInteractionCTService.CreateMenuItem(Stimulsoft.Report.WpfDesign.StiWpfDesignerControl)">
+            <summary>
+            Creates the item a menu for this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfObjectCopyCTService.PageType">
+            <summary>
+            Returns the type of page with which works this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfObjectCopyCTService.GroupCategory">
+            <summary>
+            Gets value for group items menu.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfObjectCopyCTService.Position">
+            <summary>
+            Gets position of the item in menu.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfObjectCopyCTService.GetInterfaceType">
+            <summary>
+            Returns the type of interface with which works this service.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfObjectCopyCTService.CreateMenuItem(Stimulsoft.Report.WpfDesign.StiWpfDesignerControl)">
+            <summary>
+            Creates the item a menu for this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfObjectCutCTService.PageType">
+            <summary>
+            Returns the type of page with which works this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfObjectCutCTService.GroupCategory">
+            <summary>
+            Gets value for group items menu.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfObjectCutCTService.Position">
+            <summary>
+            Gets position of the item in menu.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfObjectCutCTService.GetInterfaceType">
+            <summary>
+            Returns the type of interface with which works this service.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfObjectCutCTService.CreateMenuItem(Stimulsoft.Report.WpfDesign.StiWpfDesignerControl)">
+            <summary>
+            Creates the item a menu for this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfObjectDeleteCTService.PageType">
+            <summary>
+            Returns the type of page with which works this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfObjectDeleteCTService.GroupCategory">
+            <summary>
+            Gets value for group items menu.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfObjectDeleteCTService.Position">
+            <summary>
+            Gets position of the item in menu.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfObjectDeleteCTService.GetInterfaceType">
+            <summary>
+            Returns the type of interface with which works this service.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfObjectDeleteCTService.CreateMenuItem(Stimulsoft.Report.WpfDesign.StiWpfDesignerControl)">
+            <summary>
+            Creates the item a menu for this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfObjectPasteCTService.PageType">
+            <summary>
+            Returns the type of page with which works this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfObjectPasteCTService.GroupCategory">
+            <summary>
+            Gets value for group items menu.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfObjectPasteCTService.Position">
+            <summary>
+            Gets position of the item in menu.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfObjectPasteCTService.GetInterfaceType">
+            <summary>
+            Returns the type of interface with which works this service.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfObjectPasteCTService.CreateMenuItem(Stimulsoft.Report.WpfDesign.StiWpfDesignerControl)">
+            <summary>
+            Creates the item a menu for this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfObjectSelectAllCTService.PageType">
+            <summary>
+            Returns the type of page with which works this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfObjectSelectAllCTService.GroupCategory">
+            <summary>
+            Gets value for group items menu.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfObjectSelectAllCTService.Position">
+            <summary>
+            Gets position of the item in menu.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfObjectSelectAllCTService.GetInterfaceType">
+            <summary>
+            Returns the type of interface with which works this service.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfObjectSelectAllCTService.CreateMenuItem(Stimulsoft.Report.WpfDesign.StiWpfDesignerControl)">
+            <summary>
+            Creates the item a menu for this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfOrderCTService.PageType">
+            <summary>
+            Returns the type of page with which works this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfOrderCTService.GroupCategory">
+            <summary>
+            Gets value for group items menu.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfOrderCTService.Position">
+            <summary>
+            Gets position of the item in menu.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfOrderCTService.GetInterfaceType">
+            <summary>
+            Returns the type of interface with which works this service.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfOrderCTService.CreateMenuItem(Stimulsoft.Report.WpfDesign.StiWpfDesignerControl)">
+            <summary>
+            Creates the item a menu for this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfPropertiesCTService.PageType">
+            <summary>
+            Returns the type of page with which works this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfPropertiesCTService.GroupCategory">
+            <summary>
+            Gets value for group items menu.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfPropertiesCTService.Position">
+            <summary>
+            Gets position of the item in menu.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfPropertiesCTService.GetInterfaceType">
+            <summary>
+            Returns the type of interface with which works this service.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfPropertiesCTService.CreateMenuItem(Stimulsoft.Report.WpfDesign.StiWpfDesignerControl)">
+            <summary>
+            Creates the item a menu for this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfSizeCTService.PageType">
+            <summary>
+            Returns the type of page with which works this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfSizeCTService.GroupCategory">
+            <summary>
+            Gets value for group items menu.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfSizeCTService.Position">
+            <summary>
+            Gets position of the item in menu.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfSizeCTService.GetInterfaceType">
+            <summary>
+            Returns the type of interface with which works this service.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfSizeCTService.CreateMenuItem(Stimulsoft.Report.WpfDesign.StiWpfDesignerControl)">
+            <summary>
+            Creates the item a menu for this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfTableCellJoinCTService.PageType">
+            <summary>
+            Returns the type of page with which works this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfTableCellJoinCTService.GroupCategory">
+            <summary>
+            Gets value for group items menu.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfTableCellJoinCTService.Position">
+            <summary>
+            Gets position of the item in menu.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfTableCellJoinCTService.GetInterfaceType">
+            <summary>
+            Returns the type of interface with which works this service.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfTableCellJoinCTService.CreateMenuItem(Stimulsoft.Report.WpfDesign.StiWpfDesignerControl)">
+            <summary>
+            Creates the item a menu for this service.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfTableCellJoinCTService.CreateMenuItem(Stimulsoft.Report.WpfDesign.StiWpfDesignerControl,Stimulsoft.Report.Components.Table.StiTable,System.Boolean)">
+            <summary>
+            Creates the item a menu for this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfTableCTService.PageType">
+            <summary>
+            Returns the type of page with which works this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfTableCTService.GroupCategory">
+            <summary>
+            Gets value for group items menu.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfTableCTService.Position">
+            <summary>
+            Gets position of the item in menu.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfTableCTService.GetInterfaceType">
+            <summary>
+            Returns the type of interface with which works this service.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfTableCTService.CreateMenuItem(Stimulsoft.Report.WpfDesign.StiWpfDesignerControl)">
+            <summary>
+            Creates the item a menu for this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfTableDeleteColumnCTService.PageType">
+            <summary>
+            Returns the type of page with which works this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfTableDeleteColumnCTService.GroupCategory">
+            <summary>
+            Gets value for group items menu.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfTableDeleteColumnCTService.Position">
+            <summary>
+            Gets position of the item in menu.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfTableDeleteColumnCTService.GetInterfaceType">
+            <summary>
+            Returns the type of interface with which works this service.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfTableDeleteColumnCTService.CreateMenuItem(Stimulsoft.Report.WpfDesign.StiWpfDesignerControl)">
+            <summary>
+            Creates the item a menu for this service.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfTableDeleteColumnCTService.CreateMenuItem(Stimulsoft.Report.WpfDesign.StiWpfDesignerControl,Stimulsoft.Report.Components.Table.StiTable)">
+            <summary>
+            Creates the item a menu for this service.
+            </summary>
+            <summary>
+            Creates the item a menu for this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfTableDeleteRowCTService.PageType">
+            <summary>
+            Returns the type of page with which works this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfTableDeleteRowCTService.GroupCategory">
+            <summary>
+            Gets value for group items menu.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfTableDeleteRowCTService.Position">
+            <summary>
+            Gets position of the item in menu.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfTableDeleteRowCTService.GetInterfaceType">
+            <summary>
+            Returns the type of interface with which works this service.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfTableDeleteRowCTService.CreateMenuItem(Stimulsoft.Report.WpfDesign.StiWpfDesignerControl)">
+            <summary>
+            Creates the item a menu for this service.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfTableDeleteRowCTService.CreateMenuItem(Stimulsoft.Report.WpfDesign.StiWpfDesignerControl,Stimulsoft.Report.Components.Table.StiTable)">
+            <summary>
+            Creates the item a menu for this service.
+            </summary>
+            <summary>
+            Creates the item a menu for this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfTableInsertColumnToLeftCTService.PageType">
+            <summary>
+            Returns the type of page with which works this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfTableInsertColumnToLeftCTService.GroupCategory">
+            <summary>
+            Gets value for group items menu.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfTableInsertColumnToLeftCTService.Position">
+            <summary>
+            Gets position of the item in menu.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfTableInsertColumnToLeftCTService.GetInterfaceType">
+            <summary>
+            Returns the type of interface with which works this service.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfTableInsertColumnToLeftCTService.CreateMenuItem(Stimulsoft.Report.WpfDesign.StiWpfDesignerControl)">
+            <summary>
+            Creates the item a menu for this service.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfTableInsertColumnToLeftCTService.CreateMenuItem(Stimulsoft.Report.WpfDesign.StiWpfDesignerControl,Stimulsoft.Report.Components.Table.StiTable)">
+            <summary>
+            Creates the item a menu for this service.
+            </summary>
+            <summary>
+            Creates the item a menu for this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfTableInsertColumnToRightCTService.PageType">
+            <summary>
+            Returns the type of page with which works this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfTableInsertColumnToRightCTService.GroupCategory">
+            <summary>
+            Gets value for group items menu.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfTableInsertColumnToRightCTService.Position">
+            <summary>
+            Gets position of the item in menu.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfTableInsertColumnToRightCTService.GetInterfaceType">
+            <summary>
+            Returns the type of interface with which works this service.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfTableInsertColumnToRightCTService.CreateMenuItem(Stimulsoft.Report.WpfDesign.StiWpfDesignerControl)">
+            <summary>
+            Creates the item a menu for this service.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfTableInsertColumnToRightCTService.CreateMenuItem(Stimulsoft.Report.WpfDesign.StiWpfDesignerControl,Stimulsoft.Report.Components.Table.StiTable)">
+            <summary>
+            Creates the item a menu for this service.
+            </summary>
+            <summary>
+            Creates the item a menu for this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfTableInsertRowAboveCTService.PageType">
+            <summary>
+            Returns the type of page with which works this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfTableInsertRowAboveCTService.GroupCategory">
+            <summary>
+            Gets value for group items menu.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfTableInsertRowAboveCTService.Position">
+            <summary>
+            Gets position of the item in menu.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfTableInsertRowAboveCTService.GetInterfaceType">
+            <summary>
+            Returns the type of interface with which works this service.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfTableInsertRowAboveCTService.CreateMenuItem(Stimulsoft.Report.WpfDesign.StiWpfDesignerControl)">
+            <summary>
+            Creates the item a menu for this service.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfTableInsertRowAboveCTService.CreateMenuItem(Stimulsoft.Report.WpfDesign.StiWpfDesignerControl,Stimulsoft.Report.Components.Table.StiTable)">
+            <summary>
+            Creates the item a menu for this service.
+            </summary>
+            <summary>
+            Creates the item a menu for this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfTableInsertRowBelowCTService.PageType">
+            <summary>
+            Returns the type of page with which works this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfTableInsertRowBelowCTService.GroupCategory">
+            <summary>
+            Gets value for group items menu.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfTableInsertRowBelowCTService.Position">
+            <summary>
+            Gets position of the item in menu.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfTableInsertRowBelowCTService.GetInterfaceType">
+            <summary>
+            Returns the type of interface with which works this service.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfTableInsertRowBelowCTService.CreateMenuItem(Stimulsoft.Report.WpfDesign.StiWpfDesignerControl)">
+            <summary>
+            Creates the item a menu for this service.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfTableInsertRowBelowCTService.CreateMenuItem(Stimulsoft.Report.WpfDesign.StiWpfDesignerControl,Stimulsoft.Report.Components.Table.StiTable)">
+            <summary>
+            Creates the item a menu for this service.
+            </summary>
+            <summary>
+            Creates the item a menu for this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfTableSelectColumnCTService.PageType">
+            <summary>
+            Returns the type of page with which works this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfTableSelectColumnCTService.GroupCategory">
+            <summary>
+            Gets value for group items menu.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfTableSelectColumnCTService.Position">
+            <summary>
+            Gets position of the item in menu.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfTableSelectColumnCTService.GetInterfaceType">
+            <summary>
+            Returns the type of interface with which works this service.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfTableSelectColumnCTService.CreateMenuItem(Stimulsoft.Report.WpfDesign.StiWpfDesignerControl)">
+            <summary>
+            Creates the item a menu for this service.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfTableSelectColumnCTService.CreateMenuItem(Stimulsoft.Report.WpfDesign.StiWpfDesignerControl,Stimulsoft.Report.Components.Table.StiTable)">
+            <summary>
+            Creates the item a menu for this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfTableSelectRowCTService.PageType">
+            <summary>
+            Returns the type of page with which works this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfTableSelectRowCTService.GroupCategory">
+            <summary>
+            Gets value for group items menu.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfTableSelectRowCTService.Position">
+            <summary>
+            Gets position of the item in menu.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfTableSelectRowCTService.GetInterfaceType">
+            <summary>
+            Returns the type of interface with which works this service.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfTableSelectRowCTService.CreateMenuItem(Stimulsoft.Report.WpfDesign.StiWpfDesignerControl)">
+            <summary>
+            Creates the item a menu for this service.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfTableSelectRowCTService.CreateMenuItem(Stimulsoft.Report.WpfDesign.StiWpfDesignerControl,Stimulsoft.Report.Components.Table.StiTable)">
+            <summary>
+            Creates the item a menu for this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfTextFormatCTService.PageType">
+            <summary>
+            Returns the type of page with which works this service.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfTextFormatCTService.GroupCategory">
+            <summary>
+            Gets value for group items menu.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfTextFormatCTService.Position">
+            <summary>
+            Gets position of the item in menu.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfTextFormatCTService.GetInterfaceType">
+            <summary>
+            Returns the type of interface with which works this service.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfTextFormatCTService.CreateMenuItem(Stimulsoft.Report.WpfDesign.StiWpfDesignerControl)">
+            <summary>
+            Creates the item a menu for this service.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Controls.StiWpfBrushControl">
+            <summary>
+            StiWpfBrushControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Controls.StiWpfBrushControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Controls.StiZoneContainerControl">
+            <summary>
+            StiZoneContainerControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Controls.StiZoneContainerControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Controls.StiZoneControl">
+            <summary>
+            StiZoneControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Controls.StiZoneControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiView.GetWpfComponentDesigner(System.Windows.Point,Stimulsoft.Report.Components.StiComponent@)">
+            <summary>
+            Gets designer of specified component.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfDesignerPreviewControl">
+            <summary>
+            StiWpfDesignerPreviewControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfDesignerPreviewControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfHorRollerLine">
+            <summary>
+            Class describes the horizontal ruler of the sizes.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfPageViewControl">
+            <summary>
+            StiWpfPageViewControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfPageViewControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfRollerLine">
+            <summary>
+            Class describes the base rule of the sizes.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfVerRollerLine">
+            <summary>
+            Class describes the vertical ruler of the sizes.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfCrossTabDesigner">
+            <summary>
+            Class describes designer of the component - StiCrossTab.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfCrossTabDesigner.Design(Stimulsoft.Report.Components.StiComponent)">
+            <summary>
+            Invokes a component designer.
+            </summary>
+            <param name="component">Component for edition.</param>
+            <returns>The result of invokes the component designer.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfCrossTabDesigner.#ctor(Stimulsoft.Report.Design.IStiDesignerBase)">
+            <summary>
+            Creates a new designer of the component.
+            </summary>
+            <param name="designer">Report designer.</param>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfStyleCrossTabControl">
+            <summary>
+            StiWpfStyleCrossTabControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfStyleCrossTabControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Designer.StiWpfComponentDesigner">
+            <summary>
+            Class describes base designer of components.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Designer.StiWpfComponentDesigner.#ctor(Stimulsoft.Report.Design.IStiDesignerBase)">
+            <summary>
+            Creates a new designer of the component.
+            </summary>
+            <param name="designer">Report designer.</param>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Designer.StiWpfInplaceDesigner">
+            <summary>
+            Component designer which is used for the component editor without dialog window.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfRichTextBoxControlDesigner">
+            <summary>
+            Class describes designer of the component - StiRichTextBoxControl.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfRichTextBoxControlDesigner.Design(Stimulsoft.Report.Components.StiComponent)">
+            <summary>
+            Invokes a component designer.
+            </summary>
+            <param name="component">Component for edition.</param>
+            <returns>The result of invokes the component designer.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfRichTextBoxControlDesigner.#ctor(Stimulsoft.Report.Design.IStiDesignerBase)">
+            <summary>
+            Creates a new designer of the component.
+            </summary>
+            <param name="designer">Report designer.</param>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiBusinessObjectEditWindow">
+            <summary>
+            StiBusinessObjectEditWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiBusinessObjectEditWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiCalcDataColumnEditWindow">
+            <summary>
+            StiCalcDataColumnEditWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiCalcDataColumnEditWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiCategoryEditWindow">
+            <summary>
+            StiCategoryEditWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiCategoryEditWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Dictionary.StiColumnsGroup">
+            <summary>
+            StiColumnsGroup
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Dictionary.StiColumnsGroup.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Dictionary.StiColumnsResults">
+            <summary>
+            StiColumnsResults
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Dictionary.StiColumnsResults.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Dictionary.StiDialogInfoGetItemsFromColumnWindow">
+            <summary>
+            StiDialogInfoGetItemsFromColumnWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Dictionary.StiDialogInfoGetItemsFromColumnWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Dictionary.StiDialogInfoItemsEditor">
+            <summary>
+            StiDialogInfoItemsEditor
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Dictionary.StiDialogInfoItemsEditor.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Dictionary.StiGroupZoneControl">
+            <summary>
+            StiGroupZoneControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Dictionary.StiGroupZoneControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Dictionary.StiResourceEditWindow">
+            <summary>
+            StiResourceEditWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Dictionary.StiResourceEditWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Dictionary.StiResultsZoneControl">
+            <summary>
+            StiResultsZoneControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Dictionary.StiResultsZoneControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Dictionary.StiSelectTypeOfBusinessObjectWindow">
+            <summary>
+            StiSelectTypeOfBusinessObjectWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Dictionary.StiSelectTypeOfBusinessObjectWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Dictionary.StiViewDataSetWindow">
+            <summary>
+            StiViewDataSetWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Dictionary.StiViewDataSetWindow.#ctor(System.Data.DataSet)">
+            <summary>
+            This control is used for viewing content of DataSet.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Dictionary.StiViewDataSetWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Dictionary.StiVirtualSourceEditWindow">
+            <summary>
+            StiVirtualSourceEditWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Dictionary.StiVirtualSourceEditWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.WpfDesign.Dictionary.StiWpfDataBuilderEx.usedRelations">
+            <summary>
+            Relations being used in the dictionary.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.WpfDesign.Dictionary.StiWpfDataBuilderEx.usedDataSources">
+            <summary>
+            Data sources being used.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.WpfDesign.Dictionary.StiWpfDataBuilderEx.usedColumns">
+            <summary>
+            Columns being used.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.WpfDesign.Dictionary.StiWpfDataBuilderEx.level">
+            <summary>
+            Data source level.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Dictionary.StiWpfDataBuilderEx.#ctor">
+            <summary>
+            Creates a new object of the type StiWpfDataBuilderEx.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Dictionary.StiWpfDataBuilderEx.#ctor(System.Collections.Hashtable,System.Collections.Hashtable,System.Collections.Hashtable)">
+            <summary>
+            Creates a new object of the type StiWpfDataBuilderEx.
+            </summary>
+            <param name="usedRelations">Relations being used in the dictionary.</param>
+            <param name="usedDataSources">Data sources being used.</param>
+            <param name="usedColumns">Columns being used.</param>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiCrossTabDataSourceEditWindow">
+            <summary>
+            StiCrossTabDataSourceEditWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiCrossTabDataSourceEditWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiCsvDatabaseEditWindow">
+            <summary>
+            StiCsvDatabaseEditWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiCsvDatabaseEditWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiDatabaseSelectWindow">
+            <summary>
+            StiDatabaseSelectWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiDatabaseSelectWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiDataColumnEditWindow">
+            <summary>
+            StiDataColumnEditWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiDataColumnEditWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiDataControl">
+            <summary>
+            StiDataControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiDataControl.GetDataAdapterCategories(Stimulsoft.Report.Dictionary.StiDataAdapterService,Stimulsoft.Report.Dictionary.StiDataCollection)">
+            <summary>
+            Returns name of category for DataAdapter.
+            </summary>
+            <param name="dataAdapter">Adapter of data.</param>
+            <param name="dataStore">Collection of data.</param>
+            <returns>Name of category.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiDataControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiDataControlWindow">
+            <summary>
+            StiDataControlWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiDataControlWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiDataParameterEditWindow">
+            <summary>
+            StiDataParameterEditWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiDataParameterEditWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiDataRelationEditWindow">
+            <summary>
+            StiDataRelationEditWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiDataRelationEditWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiDataSetNameWindow">
+            <summary>
+            StiDataSetNameWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiDataSetNameWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiDataStoreSourceEditWindow">
+            <summary>
+            StiDataStoreSourceEditWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiDataStoreSourceEditWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiDBaseDatabaseEditWindow">
+            <summary>
+            StiDBaseDatabaseEditWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiDBaseDatabaseEditWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiDictionaryDropFilesControl">
+            <summary>
+            StiDictionaryDropFilesControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiDictionaryDropFilesControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiExcelDatabaseEditWindow">
+            <summary>
+            StiExcelDatabaseEditWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiExcelDatabaseEditWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiGisDatabaseEditWindow">
+            <summary>
+            StiGisDatabaseEditWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiGisDatabaseEditWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiGoogleSheetsDatabaseEditWindow">
+            <summary>
+            StiGoogleSheetsDatabaseEditWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiGoogleSheetsDatabaseEditWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiJsonDatabaseEditWindow">
+            <summary>
+            StiJsonDatabaseEditWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiJsonDatabaseEditWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiNoDataControl">
+            <summary>
+            StiNoDataControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiNoDataControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiNoSqlDatabaseEditWindow">
+            <summary>
+            StiNoSqlDatabaseEditWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiNoSqlDatabaseEditWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiRetrieveColumnsWindow">
+            <summary>
+            StiRetrieveColumnsWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiRetrieveColumnsWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiSelectDataWindow">
+            <summary>
+            StiSelectDataWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiSelectDataWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiSelectPropertiesInAssemblyWindow">
+            <summary>
+            StiSelectPropertiesInAssemblyWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiSelectPropertiesInAssemblyWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiSqlDatabaseEditWindow">
+            <summary>
+            StiSqlDatabaseEditWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiSqlDatabaseEditWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiSqlExpressionsWindow">
+            <summary>
+            StiSqlExpressionsWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiSqlExpressionsWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiVariableEditWindow">
+            <summary>
+            StiVariableEditWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiVariableEditWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiViewDataForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiViewDataForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiViewDataWindow">
+            <summary>
+            StiViewDataWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiViewDataWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfDataBuilder">
+            <summary>
+            Used to build trees by the data source.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfDataBuilder.BuildColumns(Stimulsoft.Report.Dictionary.StiDataSource,Stimulsoft.Report.Dictionary.StiDataColumnsCollection,Stimulsoft.Controls.Wpf.Node,System.Boolean)">
+            <summary>
+            Build StiTreeViewItem from the column collection.
+            </summary>
+            <param name="dataSource">Data source.</param>
+            <param name="columns">Column collection.</param>
+            <param name="parentNode">StiTreeViewItem in which StiTreeViewItem obtained will be added.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfDataBuilder.BuildRelations(Stimulsoft.Report.Dictionary.StiDataRelationsCollection,Stimulsoft.Controls.Wpf.Node,Stimulsoft.Report.Dictionary.StiDataSourcesCollection,System.Boolean)">
+            <summary>
+            Builds StiTreeViewItem fom the collection of relations.
+            </summary>
+            <param name="relations">Collection of relations.</param>
+            <param name="parentNode">StiTreeViewItem in which StiTreeViewItem obtained will be added.</param>
+            <param name="datas">Data Source collection.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfDataBuilder.BuildDataSource(Stimulsoft.Report.Dictionary.StiDataSource,Stimulsoft.Controls.Wpf.Node,Stimulsoft.Report.Dictionary.StiDataSourcesCollection,System.Boolean)">
+            <summary>
+            Builds StiTreeViewItem from the Data Source.
+            </summary>
+            <param name="dataSource">Data source.</param>
+            <param name="parentNode">StiTreeViewItem in which StiTreeViewItem obtained will be added.</param>
+            <param name="datas">Data Source collection.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfDataBuilder.BuildDataSource(Stimulsoft.Report.Dictionary.StiDataSource,Stimulsoft.Controls.Wpf.Node@,System.Boolean)">
+            <summary>
+            Builds StiTreeViewItem from the Data Source.
+            </summary>
+            <param name="dataSource">Data Source for building.</param>
+            <param name="dataNode">Builded StiTreeViewItem.</param>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfDataBuilder.BuildColumns(Stimulsoft.Report.Dictionary.StiBusinessObject,Stimulsoft.Report.Dictionary.StiDataColumnsCollection,Stimulsoft.Controls.Wpf.Node,System.Boolean)">
+            <summary>
+            Build TreeNode from the column collection.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfDataBuilder.BuildBusinessObject(Stimulsoft.Report.Dictionary.StiBusinessObject,Stimulsoft.Controls.Wpf.ControlsV3.NodeTreeViewItem,System.Boolean)">
+            <summary>
+            Builds TreeNode from the Business Object.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfDataBuilder.BuildBusinessObject(Stimulsoft.Report.Dictionary.StiBusinessObject,Stimulsoft.Controls.Wpf.ControlsV3.NodeTreeViewItem,System.Boolean,System.Boolean)">
+            <summary>
+            Builds TreeNode from the Business Object.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfDataBuilder.BuildBusinessObject(Stimulsoft.Report.Dictionary.StiBusinessObject,Stimulsoft.Controls.Wpf.Node,System.Boolean)">
+            <summary>
+            Builds TreeNode from the Business Object.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfDataEditors.DataStoreAdapterEdit(Stimulsoft.Report.Dictionary.StiDataAdapterService,Stimulsoft.Report.Dictionary.StiDictionary,Stimulsoft.Report.Dictionary.StiDataSource)">
+            <summary>
+            Calls the form for Data Source edition.
+            </summary>
+            <param name="dictionary">Dictionary in which Data Source is located.</param>
+            <param name="dataSource">Data Source.</param>
+            <returns>Result of gialog form.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfDataEditors.DataStoreAdapterNew(Stimulsoft.Report.Dictionary.StiDataAdapterService,Stimulsoft.Report.Dictionary.StiDictionary,Stimulsoft.Report.Dictionary.StiDataSource)">
+            <summary>
+            Calls the form for a new Data Source edition.
+            </summary>
+            <param name="dictionary">Dictionary in which Data Source is located.</param>
+            <param name="dataSource">Data Source.</param>
+            <returns>Result of gialog form.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfDataEditors.VirtualAdapterEdit(Stimulsoft.Report.Dictionary.StiVirtualAdapterService,Stimulsoft.Report.Dictionary.StiDictionary,Stimulsoft.Report.Dictionary.StiDataSource)">
+            <summary>
+            Calls the form for Data Source edition.
+            </summary>
+            <param name="dictionary">Dictionary in which Data Source is located.</param>
+            <param name="dataSource">Data Source.</param>
+            <returns>Result of gialog form.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfDataEditors.VirtualAdapterNew(Stimulsoft.Report.Dictionary.StiVirtualAdapterService,Stimulsoft.Report.Dictionary.StiDictionary,Stimulsoft.Report.Dictionary.StiDataSource)">
+            <summary>
+            Calls the form for a new Data Source edition.
+            </summary>
+            <param name="dictionary">Dictionary in which Data Source is located.</param>
+            <param name="dataSource">Data Source.</param>
+            <returns>Result of gialog form.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfDataEditors.DataTransformationAdapterEdit(Stimulsoft.Report.Dictionary.StiDataTransformationAdapterService,Stimulsoft.Report.Dictionary.StiDictionary,Stimulsoft.Report.Dictionary.StiDataSource)">
+            <summary>
+            Calls the form for Data Source edition.
+            </summary>
+            <param name="dictionary">Dictionary in which Data Source is located.</param>
+            <param name="dataSource">Data Source.</param>
+            <returns>Result of gialog form.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfDataEditors.DataTransformationAdapterNew(Stimulsoft.Report.Dictionary.StiDataTransformationAdapterService,Stimulsoft.Report.Dictionary.StiDictionary,Stimulsoft.Report.Dictionary.StiDataSource)">
+            <summary>
+            Calls the form for a new Data Source edition.
+            </summary>
+            <param name="dictionary">Dictionary in which Data Source is located.</param>
+            <param name="dataSource">Data Source.</param>
+            <returns>Result of gialog form.</returns>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfDictionaryControl">
+            <summary>
+            StiWpfDictionaryControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfDictionaryControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiXmlDatabaseEditWindow">
+            <summary>
+            StiXmlDatabaseEditWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiXmlDatabaseEditWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Editors.Interaction.StiCloudInteractionEditorWindow">
+            <summary>
+            StiCloudInteractionEditorWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Editors.Interaction.StiCloudInteractionEditorWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Editors.Interaction.StiInteractionBookmarkControl">
+            <summary>
+            StiInteractionBookmarkControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Editors.Interaction.StiInteractionBookmarkControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Editors.Interaction.StiInteractionCollapsingControl">
+            <summary>
+            StiInteractionCollapsingControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Editors.Interaction.StiInteractionCollapsingControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Editors.Interaction.StiInteractionCrossCollapsingControl">
+            <summary>
+            StiInteractionCrossCollapsingControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Editors.Interaction.StiInteractionCrossCollapsingControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Editors.Interaction.StiInteractionDrilldownControl">
+            <summary>
+            StiInteractionDrilldownControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Editors.Interaction.StiInteractionDrilldownControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Editors.Interaction.StiInteractionDrilldownParametersControl">
+            <summary>
+            StiInteractionDrilldownParametersControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Editors.Interaction.StiInteractionDrilldownParametersControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Editors.Interaction.StiInteractionHyperlinkControl">
+            <summary>
+            StiInteractionHyperlinkControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Editors.Interaction.StiInteractionHyperlinkControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Editors.Interaction.StiInteractionSelectionControl">
+            <summary>
+            StiInteractionSelectionControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Editors.Interaction.StiInteractionSelectionControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Editors.Interaction.StiInteractionSortControl">
+            <summary>
+            StiInteractionSortControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Editors.Interaction.StiInteractionSortControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Editors.Interaction.StiInteractionTagControl">
+            <summary>
+            StiInteractionTagControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Editors.Interaction.StiInteractionTagControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Editors.Interaction.StiInteractionToolTipControl">
+            <summary>
+            StiInteractionToolTipControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Editors.Interaction.StiInteractionToolTipControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Editors.StiCheckBallonControl">
+            <summary>
+            StiCheckBallonControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Editors.StiCheckBallonControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiBorderEditorWindow">
+            <summary>
+            StiBorderEditorWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiBorderEditorWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfCodeEditor">
+            <summary>
+            StiWpfCodeEditor
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfCodeEditor.NodesMemoryForEditor">
+            <summary>
+            Internal use only.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfCodeEditor.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfConditionEditor">
+            <summary>
+            This serice is used for condition editor.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfConditionEditor.EditCondition(Stimulsoft.Report.Components.IStiGroup)">
+            <summary>
+            Call editor for specified condition.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfConditionEditorWindow">
+            <summary>
+            StiWpfConditionEditorWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfConditionEditorWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfRichTextEditor">
+            <summary>
+            This class used for calling rich text editor.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfRichTextEditor.EditText(Stimulsoft.Report.StiReport,System.String@,System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+            Call rich text editor.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfRichTextEditor.EditSystemText(Stimulsoft.Report.StiReport,Stimulsoft.Report.Components.StiRichText)">
+            <summary>
+            Call rich text editor for specified component.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfRichTextEditorControl">
+            <summary>
+            StiWpfRichTextEditorControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfRichTextEditorControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfRichTextEditorWindow">
+            <summary>
+            StiWpfRichTextEditorWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfRichTextEditorWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfSystemRichTextEditorWindow">
+            <summary>
+            StiWpfSystemRichTextEditorWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfSystemRichTextEditorWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfSystemTextEditorWindow">
+            <summary>
+            StiWpfSystemTextEditorWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfSystemTextEditorWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfTextEditor">
+            <summary>
+            This class describe service for calling text editor.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfTextEditor.EditText(Stimulsoft.Report.StiReport,System.String@,Stimulsoft.Report.WpfDesign.StiCodeEditorMode,System.String,System.Boolean,System.String)">
+            <summary>
+            Call text editor for specified text.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfTextEditor.EditSystemText(Stimulsoft.Report.StiReport,Stimulsoft.Report.Components.StiText,Stimulsoft.Report.WpfDesign.StiCodeEditorMode)">
+            <summary>
+            Call text editor for specified text component.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfTextEditorWindow">
+            <summary>
+            StiWpfTextEditorWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfTextEditorWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiCloudGaugeControl">
+            <summary>
+            StiCloudGaugeControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiCloudGaugeControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiCloudGaugeStylesControl">
+            <summary>
+            StiCloudGaugeStylesControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiCloudGaugeStylesControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiCloudGaugeTypesControl">
+            <summary>
+            StiCloudGaugeTypesControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiCloudGaugeTypesControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiCloudGaugeDesignerWindow">
+            <summary>
+            StiCloudGaugeDesignerWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiCloudGaugeDesignerWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiCloudGaugeV2DesignerWindow">
+            <summary>
+            StiCloudGaugeV2DesignerWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiCloudGaugeV2DesignerWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiGaugePanelControl">
+            <summary>
+            StiGaugePanelControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiGaugePanelControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfGaugeDesigner">
+            <summary>
+            Class describes designer of the component - StiGauge.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfGaugeDesigner.Design(Stimulsoft.Report.Components.StiComponent)">
+            <summary>
+            Invokes a component designer.
+            </summary>
+            <param name="component">Component for edition.</param>
+            <returns>The result of invokes the component designer.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfGaugeDesigner.#ctor(Stimulsoft.Report.Design.IStiDesignerBase)">
+            <summary>
+            Creates a new designer of the component.
+            </summary>
+            <param name="designer">Report designer.</param>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiAddCultureWindow">
+            <summary>
+            StiAddCultureWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiAddCultureWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiGlobalizationEditorWindow">
+            <summary>
+            StiGlobalizationEditorWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiGlobalizationEditorWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Globalization.StiNoCultureControl">
+            <summary>
+            StiNoCultureControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Globalization.StiNoCultureControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiMapDesignerWindow">
+            <summary>
+            StiMapDesignerWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiMapDesignerWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiMapTabChoroplethControl">
+            <summary>
+            StiMapTabChoroplethControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiMapTabChoroplethControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiMapTabColumnsControl">
+            <summary>
+            StiMapTabColumnsControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiMapTabColumnsControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiMapTabOnlineControl">
+            <summary>
+            StiMapTabOnlineControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiMapTabOnlineControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfMapDesigner">
+            <summary>
+            Class describes designer of the component - StiMap.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfMapDesigner.Design(Stimulsoft.Report.Components.StiComponent)">
+            <summary>
+            Invokes a component designer.
+            </summary>
+            <param name="component">Component for edition.</param>
+            <returns>The result of invokes the component designer.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfMapDesigner.#ctor(Stimulsoft.Report.Design.IStiDesignerBase)">
+            <summary>
+            Creates a new designer of the component.
+            </summary>
+            <param name="designer">Report designer.</param>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfDictionaryPanelService">
+            <summary>
+            This class is describe Report Dictionary panel.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfDictionaryPanelService.ServiceName">
+            <summary>
+            Gets a service name.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfPanelService">
+            <summary>
+            This class is describe base service for panels.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfPanelService.ServiceCategory">
+            <summary>
+            Gets a service category.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfPanelService.ServiceType">
+            <summary>
+            Gets a service type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfPropertiesPanelService">
+            <summary>
+            This class is describe Properties panel.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfPropertiesPanelService.ServiceName">
+            <summary>
+            Gets a service name.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfReportTreePanelService">
+            <summary>
+            This class is describe Report Tree panel.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfReportTreePanelService.ServiceName">
+            <summary>
+            Gets a service name.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfBandQuickButton">
+            <summary>
+            The class describes the StiWpfBandQuickButton.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfBandQuickButton.Name">
+            <summary>
+            Gets name of the quick button.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfDataRelationQuickButton">
+            <summary>
+            The class describes the StiWpfDataRelationQuickButton.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfDataRelationQuickButton.Name">
+            <summary>
+            Gets name of the quick button.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfDataSourceQuickButton">
+            <summary>
+            The class describes the StiWpfDataSourceQuickButton.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfDataSourceQuickButton.Name">
+            <summary>
+            Gets name of the quick button.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfImageQuickButton">
+            <summary>
+            The class describes the StiWpfImageQuickButton.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfImageQuickButton.Name">
+            <summary>
+            Gets name of the quick button.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfMasterComponentQuickButton">
+            <summary>
+            The class describes the StiWpfMasterComponentQuickButton.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfMasterComponentQuickButton.Name">
+            <summary>
+            Gets name of the quick button.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfQuickButton">
+            <summary>
+            The class describes the base type for the wpf quick button.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfQuickButton.Image">
+            <summary>
+            Not used in WPF!
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfQuickButton.SelectedImage">
+            <summary>
+            Not used in WPF!
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfQuickButton.OnClick(System.Windows.Forms.Control,System.Drawing.Point,Stimulsoft.Report.Components.StiComponent,Stimulsoft.Report.Design.IStiDesignerBase)">
+            <summary>
+            Not used in WPF!
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfQuickButtonHelper">
+            <summary>
+            Summary description for StiQuickButtonHelper.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfQuickButtonHelper.GetQuickButtonRect(Stimulsoft.Report.WpfDesign.StiWpfQuickButton[],System.Int32,Stimulsoft.Base.Drawing.RectangleD)">
+            <summary>
+            Returns quick button rectangle.
+            </summary>
+            <param name="buttonIndex">An index of the quick button.</param>
+            <param name="rect">A rectangle of the component.</param>
+            <returns>Returns a rectangle of the quick button.</returns>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfQuickButtonHelper.CheckVisibleQuickButtons(Stimulsoft.Base.Drawing.RectangleD)">
+            <summary>
+            Checks visibility of the quick button rectangle.
+            </summary>
+            <param name="rect">A rectangle of the component.</param>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfRichTextQuickButton">
+            <summary>
+            The class describes the StiWpfRichTextQuickButton.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfRichTextQuickButton.Name">
+            <summary>
+            Gets name of the quick button.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfSelectAllQuickButton">
+            <summary>
+            The class describes the StiWpfSelectAllQuickButton.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfSelectAllQuickButton.Name">
+            <summary>
+            Gets name of the quick button.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfSignatureQuickButton">
+            <summary>
+            The class describes the StiWpfSignatureQuickButton.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfSignatureQuickButton.Name">
+            <summary>
+            Gets name of the quick button.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfTableCellCheckBoxQuickButton">
+            <summary>
+            The class describes the StiWpfTableCellCheckBoxQuickButton.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfTableCellCheckBoxQuickButton.Name">
+            <summary>
+            Gets name of the quick button.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfTableCellImageQuickButton">
+            <summary>
+            The class describes the  StiWpfTableCellImageQuickButton.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfTableCellImageQuickButton.Name">
+            <summary>
+            Gets name of the quick button.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfTableCellRichTextQuickButton">
+            <summary>
+            The class describes the StiWpfTableCellRichTextQuickButton.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfTableCellRichTextQuickButton.Name">
+            <summary>
+            Gets name of the quick button.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfTableCellTextQuickButton">
+            <summary>
+            The class describes the StiWpfTableCellTextQuickButton.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfTableCellTextQuickButton.Name">
+            <summary>
+            Gets name of the quick button.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfTextQuickButton">
+            <summary>
+            The class describes the StiWpfTextQuickButton.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfTextQuickButton.Name">
+            <summary>
+            Gets name of the quick button.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Ribbon.Ribbon22.StiNewCloudFolderWindow">
+            <summary>
+            StiNewCloudFolderWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Ribbon.Ribbon22.StiNewCloudFolderWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Ribbon.Ribbon22.StiNewFolderWindow">
+            <summary>
+            StiNewFolderWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Ribbon.Ribbon22.StiNewFolderWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Ribbon.Ribbon22.StiOpenAddAPlaceUserControl">
+            <summary>
+            StiOpenAddAPlaceUserControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Ribbon.Ribbon22.StiOpenAddAPlaceUserControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Ribbon.Ribbon22.StiOpenImportUserControl">
+            <summary>
+            StiOpenImportUserControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Ribbon.Ribbon22.StiOpenImportUserControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Ribbon.Ribbon22.StiOpenRecentDocumentsUserControl">
+            <summary>
+            StiOpenRecentDocumentsUserControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Ribbon.Ribbon22.StiOpenRecentDocumentsUserControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Ribbon.Ribbon22.StiOpenRecentFoldersUserControl">
+            <summary>
+            StiOpenRecentFoldersUserControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Ribbon.Ribbon22.StiOpenRecentFoldersUserControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Ribbon.Ribbon22.StiOpenRecentUserControl">
+            <summary>
+            StiOpenRecentUserControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Ribbon.Ribbon22.StiOpenRecentUserControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Ribbon.Ribbon22.StiOpenStimulsoftCloudUserControl">
+            <summary>
+            StiOpenStimulsoftCloudUserControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Ribbon.Ribbon22.StiOpenStimulsoftCloudUserControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Ribbon.Ribbon22.StiOpenThisPCUserControl">
+            <summary>
+            StiOpenThisPCUserControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Ribbon.Ribbon22.StiOpenThisPCUserControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Ribbon.Ribbon22.StiRenameWindow">
+            <summary>
+            StiRenameWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Ribbon.Ribbon22.StiRenameWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Ribbon.Ribbon22.StiReplaceCloudFileWindow">
+            <summary>
+            StiReplaceCloudFileWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Ribbon.Ribbon22.StiReplaceCloudFileWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Ribbon.Ribbon22.StiReplaceFileWindow">
+            <summary>
+            StiReplaceFileWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Ribbon.Ribbon22.StiReplaceFileWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Ribbon.Ribbon22.StiRequestChangesSavingCloudWindow">
+            <summary>
+            StiRequestChangesSavingCloudWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Ribbon.Ribbon22.StiRequestChangesSavingCloudWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Ribbon.Ribbon22.StiSaveAsRecentFoldersUserControl">
+            <summary>
+            StiSaveAsRecentFoldersUserControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Ribbon.Ribbon22.StiSaveAsRecentFoldersUserControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Ribbon.Ribbon22.StiSaveAsStimulsoftCloudUserControl">
+            <summary>
+            StiSaveAsStimulsoftCloudUserControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Ribbon.Ribbon22.StiSaveAsStimulsoftCloudUserControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Ribbon.Ribbon22.StiSaveAsThisPCUserControl">
+            <summary>
+            StiSaveAsThisPCUserControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Ribbon.Ribbon22.StiSaveAsThisPCUserControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Ribbon.Ribbon22.StiSaveThisFileWindow">
+            <summary>
+            StiSaveThisFileWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Ribbon.Ribbon22.StiSaveThisFileWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiMenuItem2013InfoUserControl">
+            <summary>
+            StiMenuItem2013InfoUserControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiMenuItem2013InfoUserControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiMenuItem2013NewUserControl">
+            <summary>
+            StiMenuItem2013NewUserControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiMenuItem2013NewUserControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiMenuItem2013OpenFilesUserControl">
+            <summary>
+            StiMenuItem2013OpenFilesUserControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiMenuItem2013OpenFilesUserControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiMenuItem2013SaveAsUserControl">
+            <summary>
+            StiMenuItem2013SaveAsUserControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiMenuItem2013SaveAsUserControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiAboutWindow">
+            <summary>
+            StiAboutWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiAboutWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiBuilder">
+            <summary>
+            This class helps with refreshing of report designer.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiBuilder.RefreshPageNames">
+            <summary>
+            Refreshes page names.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiBuilder.RefreshDesigner(System.Boolean)">
+            <summary>
+            Refreshes report designer.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiBuilder.BuildReport">
+            <summary>
+            Fully rebuild report designer.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiBuilder.RefreshPages">
+            <summary>
+            Refreshes report pages.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiConvert">
+            <summary>
+            This class helps convert coordinates.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiOptionsWindow">
+            <summary>
+            StiOptionsWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiOptionsWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiPageRenameWindow">
+            <summary>
+            StiPageRenameWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiPageRenameWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiReportSetupWindow">
+            <summary>
+            StiReportSetupWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiReportSetupWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfClipboard">
+            <summary>
+            This class helps with Clipboard.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfClipboard.Set(System.String)">
+            <summary>
+            Store text to Clipboard.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfClipboard.Get">
+            <summary>
+            Restore text from Clipboard.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfDesigner">
+            <summary>
+            StiWpfDesigner
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfDesigner.RunInDesignMode">
+            <summary>
+            Gets or sets value which indicates that designer called from VisualStudio.Net.
+            Internal use only.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfDesigner.ComponentsOnReport">
+            <summary>
+            Gets collection of components in current report.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfDesigner.ComponentsOnPage">
+            <summary>
+            Gets collection of components in current page.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfDesigner.SelectedTextComponentsOnPage">
+            <summary>
+            Gets collection of selected text components on current page.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfDesigner.SelectedComponentsOnPage">
+            <summary>
+            Gets collection of selected components on current page.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfDesigner.Info">
+            <summary>
+            Gets or sets information which is necessary for the report designer.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfDesigner.MdiParent">
+            <summary>
+            This property can't be used in Stimulsoft Reports.Wpf.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfDesigner.AddOwnedForm(System.Windows.Forms.Form)">
+            <summary>
+            This method can't be used in Stimulsoft Reports.Wpf.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfDesigner.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfDesignerConfigService">
+            <summary>
+            This class desribes report designer configuration.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfDesignerConfigService.ServiceType">
+            <summary>
+            Gets a service type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfDesignerControl">
+            <summary>
+            Interaction logic for StiWpfDesignerControl.xaml
+            </summary>
+            <summary>
+            StiWpfDesignerControl
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfDesignerControl.Info">
+            <summary>
+            Gets or sets information which is necessary for the report designer.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfDesignerControl.ComponentsOnReport">
+            <summary>
+            Gets collection of components in current report.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfDesignerControl.ComponentsOnPage">
+            <summary>
+            Gets collection of components in current page.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfDesignerControl.SelectedTextComponentsOnPage">
+            <summary>
+            Gets collection of selected text components on current page.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfDesignerControl.SelectedComponentsOnPage">
+            <summary>
+            Gets collection of selected components on current page.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfDesignerControl.AddOwnedForm(System.Windows.Forms.Form)">
+            <summary>
+            This method can't be used in Stimulsoft Reports.Wpf.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfDesignerControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfDesignerInitService">
+            <summary>
+            This class describes base class for report designer services.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfDesignerInitService.ServiceCategory">
+            <summary>
+            Gets a service category.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfDesignerInitService.Designer">
+            <summary>
+            Gets or sets current report designer.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfGroup">
+            <summary>
+            This class describes groups of components.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfGroup.Clone">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>A new object that is a copy of this instance.</returns>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfInsertionComponents">
+            <summary>
+            This class helps with insertion components to current report page.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfMainMenuService.Clone">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>A new object that is a copy of this instance.</returns>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfMainMenuService.ServiceCategory">
+            <summary>
+            Gets a service category.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfMainMenuService.ServiceType">
+            <summary>
+            Gets a service type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfPageView">
+            <summary>
+            This class is used for drawing report page.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfPageView.GetCurrentPageView">
+            <summary>
+            Returns current StiWpfPageViewControl.
+            </summary>
+            <returns>StiPageViewControl</returns>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfUndoRedo">
+            <summary>
+            This class helps with undo/redo in report designer.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfUndoRedoService">
+            <summary>
+            This class describes service for control undo/redo operations in report designer.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfUndoRedoService.Clone">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            <returns>A new object that is a copy of this instance.</returns>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfUndoRedoService.ServiceType">
+            <summary>
+            Gets a service type.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfUndoRedoService.UndoLimit">
+            <summary>
+            Gets or sets amount of undo/redo steps.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfUndoRedoService.UndoStack">
+            <summary>
+            Gets or sets undo stack.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfUndoRedoService.RedoStack">
+            <summary>
+            Gets or sets redo stack.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Styles.StiCloudStyleChartControl">
+            <summary>
+            StiCloudStyleChartControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Styles.StiCloudStyleChartControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Styles.StiCloudStyleComponentControl">
+            <summary>
+            StiCloudStyleComponentControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Styles.StiCloudStyleComponentControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Styles.StiCloudStyleCrossTabControl">
+            <summary>
+            StiCloudStyleCrossTabControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Styles.StiCloudStyleCrossTabControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Styles.StiCloudStyleDialogControl">
+            <summary>
+            StiCloudStyleDialogControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Styles.StiCloudStyleDialogControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Styles.StiCloudStyleGaugeControl">
+            <summary>
+            StiCloudStyleGaugeControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Styles.StiCloudStyleGaugeControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Styles.StiCloudStyleMapControl">
+            <summary>
+            StiCloudStyleMapControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Styles.StiCloudStyleMapControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Styles.StiCloudStyleTableControl">
+            <summary>
+            StiCloudStyleTableControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Styles.StiCloudStyleTableControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Styles.StiCreateStyleBasedWindow">
+            <summary>
+            StiCreateStyleBasedWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Styles.StiCreateStyleBasedWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Styles.StiStyleConditionsEditorWindow">
+            <summary>
+            StiStyleConditionsEditorWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Styles.StiStyleConditionsEditorWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Styles.StiStyleConditionZoneControl">
+            <summary>
+            StiStyleConditionZoneControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Styles.StiStyleConditionZoneControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Styles.StiStyleControl">
+            <summary>
+            StiStyleControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Styles.StiStyleControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Styles.StiStyleDesigner">
+            <summary>
+            StiStyleDesigner
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Styles.StiStyleDesigner.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Styles.StiStylesCreateWindow">
+            <summary>
+            StiStylesCreateWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Styles.StiStylesCreateWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Styles.StiStyleViewReportControl">
+            <summary>
+            StiStyleViewReportControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Styles.StiStyleViewReportControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiComponentsToolboxWindow">
+            <summary>
+            StiComponentsToolboxWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiComponentsToolboxWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Toolbars.StiMapCategoryWindow">
+            <summary>
+            StiMapCategoryWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Toolbars.StiMapCategoryWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Toolbars.StiShapeToolboxControl">
+            <summary>
+            StiShapeToolboxControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Toolbars.StiShapeToolboxControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfBordersToolbarService">
+            <summary>
+            This class describes report designer toolbar Borders.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfBordersToolbarService.ServiceName">
+            <summary>
+            Gets a service name.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfFormattingToolbarService">
+            <summary>
+            This class describes report designer toolbar Formatting.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfFormattingToolbarService.ServiceName">
+            <summary>
+            Gets a service name.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfLayoutToolbarService">
+            <summary>
+            This class describes report designer toolbar Layout.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfLayoutToolbarService.ServiceName">
+            <summary>
+            Gets a service name.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfStandardToolbarService">
+            <summary>
+            This class describes report designer toolbar Standard.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfStandardToolbarService.ServiceName">
+            <summary>
+            Gets a service name.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfStatusBarService">
+            <summary>
+            This class describes report designer status bar.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfStatusBarService.ServiceName">
+            <summary>
+            Gets a service name.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfStyleToolbarService">
+            <summary>
+            This class describes report designer toolbar Style.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfStyleToolbarService.ServiceName">
+            <summary>
+            Gets a service name.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfToolbarService">
+            <summary>
+            This class describes base service for report designer toolbar.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfToolbarService.ServiceCategory">
+            <summary>
+            Gets a service category.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfToolbarService.ServiceType">
+            <summary>
+            Gets a service type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfToolboxToolbarService">
+            <summary>
+            This class describes report designer toolbar Toolbox.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfToolboxToolbarService.ServiceName">
+            <summary>
+            Gets a service name.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfZoomToolbarService">
+            <summary>
+            This class describes report designer zoom bar.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfZoomToolbarService.ServiceName">
+            <summary>
+            Gets a service name.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfCreateToolService">
+            <summary>
+            This class describes report designer tool for component creation.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfCreateToolService.ServiceName">
+            <summary>
+            Gets a service name.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfHandToolService">
+            <summary>
+            This class describes report designer tool - Hand.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfHandToolService.ServiceName">
+            <summary>
+            Gets a service name.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfSelectToolService.ServiceName">
+            <summary>
+            Gets a service name.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfSelectToolService.TableHelperV2">
+            <summary>
+            Field for help resize columns and rows of selected components
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfSelectToolService.RedrawAll">
+            <summary>
+            Gets value, indicates that it is necessary to draw again the whole page when moving the component or
+            changing its sizes in the designer.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.WpfDesign.StiWpfSelectToolService.IsDragDropComponent">
+            <summary>
+            True, if then report engine process drag and drop operation
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfSelectToolService.GetTextInControl(Stimulsoft.Report.Components.StiContainer,System.Double,System.Double)">
+            <summary>
+            Used for override copy.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfSelectToolService.ResetHighlightState">
+            <summary>
+            Used for override copy.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfSelectToolService.ResetHighlightState(Stimulsoft.Report.Components.StiContainer)">
+            <summary>
+            Used for override copy.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfSelectToolService.GetHighlightedText">
+            <summary>
+            Get highlighted text component.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiWpfSelectToolService.GetHighlightedText(Stimulsoft.Report.Components.StiContainer)">
+            <summary>
+            Get highlighted text component.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfStyleToolService">
+            <summary>
+            This class describes report designer tool - Style.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfStyleToolService.ServiceName">
+            <summary>
+            Gets a service name.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiWpfToolService">
+            <summary>
+            This class describes base service, which used for creating report designer tool.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfToolService.ServiceCategory">
+            <summary>
+            Gets a service category.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.StiWpfToolService.ServiceType">
+            <summary>
+            Gets a service type.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Trial.StiUsingTrialVersionWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Viewer.StiPreviewSettingsEditorWindow">
+            <summary>
+            StiPreviewSettingsEditorWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Viewer.StiPreviewSettingsEditorWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Wizards.StiColumnsGroup">
+            <summary>
+            StiColumnsGroup
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Wizards.StiColumnsGroup.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Wizards.StiColumnsOrder">
+            <summary>
+            StiColumnsOrder
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Wizards.StiColumnsOrder.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Wizards.StiColumnsRelation">
+            <summary>
+            StiColumnsRelation
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Wizards.StiColumnsRelation.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Wizards.StiColumnsSelection">
+            <summary>
+            StiColumnsSelection
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Wizards.StiColumnsSelection.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Wizards.StiColumnsThemes">
+            <summary>
+            StiColumnsThemes
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Wizards.StiColumnsThemes.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Wizards.StiColumnsTotals">
+            <summary>
+            StiColumnsTotals
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Wizards.StiColumnsTotals.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Wizards.StiDataBandPlacementWizardWindow">
+            <summary>
+            StiDataBandPlacementWizardWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Wizards.StiDataBandPlacementWizardWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Wizards.StiDataSourcePanel">
+            <summary>
+            StiDataSourcePanel
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Wizards.StiDataSourcePanel.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Wizards.StiHighlightComponentControl">
+            <summary>
+            StiHighlightComponentControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Wizards.StiHighlightComponentControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Wizards.StiLabelReportWizardWindow">
+            <summary>
+            StiLabelReportWizardWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Wizards.StiLabelReportWizardWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Wizards.StiMasterDetailReportWizardWindow">
+            <summary>
+            StiMasterDetailReportWizardWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Wizards.StiMasterDetailReportWizardWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Wizards.StiNewWindow">
+            <summary>
+            StiNewWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Wizards.StiNewWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Wizards.StiPlacementComponentControl">
+            <summary>
+            StiPlacementComponentControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Wizards.StiPlacementComponentControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Wizards.StiReportLayout">
+            <summary>
+            StiReportLayout
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Wizards.StiReportLayout.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Wizards.StiStandardReportWizardWindow">
+            <summary>
+            StiStandardReportWizardWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Wizards.StiStandardReportWizardWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.Wizards.StiStylesCollectionViewControl">
+            <summary>
+            StiStylesCollectionViewControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.Wizards.StiStylesCollectionViewControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.Wizards.StiWpfChartWizardService.ServiceName">
+            <summary>
+            Gets a service name.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.Wizards.StiWpfCrossTabWizardService.ServiceName">
+            <summary>
+            Gets a service name.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.Wizards.StiWpfLabelWizardService.ServiceName">
+            <summary>
+            Gets a service name.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.Wizards.StiWpfMasterDetailWizardService.ServiceName">
+            <summary>
+            Gets a service name.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.Wizards.StiWpfReportTemplatesService.ServiceName">
+            <summary>
+            Gets a service name.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.Wizards.StiWpfReportTemplatesService.ServiceCategory">
+            <summary>
+            Gets a service category.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.Wizards.StiWpfReportTemplatesService.ServiceType">
+            <summary>
+            Gets a service type.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.Wizards.StiWpfStandardWizardService.ServiceName">
+            <summary>
+            Gets a service name.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.Wizards.StiWpfWizardService.ServiceCategory">
+            <summary>
+            Gets a service category.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.WpfDesign.Wizards.StiWpfWizardService.ServiceType">
+            <summary>
+            Gets a service type.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiColumnsFilters">
+            <summary>
+            StiColumnsFilters
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiColumnsFilters.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiColumnsSort">
+            <summary>
+            StiColumnsSort
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiColumnsSort.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiFilterZoneControl">
+            <summary>
+            StiFilterZoneControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiFilterZoneControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.WpfDesign.StiSortZoneControl">
+            <summary>
+            Interaction logic for StiSortZoneControl.xaml
+            </summary>
+            <summary>
+            StiSortZoneControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.WpfDesign.StiSortZoneControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Report.Dictionary.Design.StiSqlExpressionsForm">
+            <summary>
+            Summary description for StiSqlExpressionForm.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Report.Dictionary.Design.StiSqlExpressionsForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Dictionary.Design.StiSqlExpressionsForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Report.Dictionary.Design.StiSqlExpressionsForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Client.Designer.CrossTab.StiWpfCrossTabDesignerWindow">
+            <summary>
+            StiWpfCrossTabDesignerWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Client.Designer.CrossTab.StiWpfCrossTabDesignerWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+    </members>
+</doc>

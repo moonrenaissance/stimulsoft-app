@@ -1,0 +1,938 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Stimulsoft.Controls.Wpf</name>
+    </assembly>
+    <members>
+        <member name="T:Stimulsoft.Controls.Wpf.ControlsV3.StiColorsControl">
+            <summary>
+            StiColorsControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.ControlsV3.StiColorsControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.ControlsV3.StiColorPickerWindow">
+            <summary>
+            StiColorPickerWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.ControlsV3.StiColorPickerWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.ControlsV3.DatePicker">
+            <summary>
+            Control to select a specific date
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Controls.Wpf.ControlsV3.DatePicker.MaxDateProperty">
+            <summary>
+            Gets or sets the max date to be set for the DatePicker
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.Wpf.ControlsV3.DatePicker.MaxDate">
+            <summary>
+            Gets or sets the max date to be set for the DatePicker
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Controls.Wpf.ControlsV3.DatePicker.MinDateProperty">
+            <summary>
+            The Minimum date for the date picker
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.Wpf.ControlsV3.DatePicker.MinDate">
+            <summary>
+            The Minimum date for the date picker
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.Wpf.ControlsV3.DatePicker.MonthsList">
+            <summary>
+            Gets the list of months
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.Wpf.ControlsV3.DatePicker.CurrentlyViewedMonth">
+            <summary>
+            Gets or sets the current month in view
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.Wpf.ControlsV3.DatePicker.CurrentlyViewedYear">
+            <summary>
+            Gets or sets the current year in view
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.Wpf.ControlsV3.DatePicker.CurrentlyViewedMonthYear">
+            <summary>
+            returns the month currently selected as a full string
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.Wpf.ControlsV3.DatePicker.CurrentlySelectedDateString">
+            <summary>
+            Gets and sets a string that represents the selected date
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.Wpf.ControlsV3.DatePicker.Culture">
+            <summary>
+            Gets or sets culture-specific format
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Controls.Wpf.ControlsV3.DatePicker.CurrentlySelectedDateProperty">
+            <summary>
+            Gets and sets the currently viewed date
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.Wpf.ControlsV3.DatePicker.CurrentlySelectedDate">
+            <summary>
+            Gets and sets the currently viewed date
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Controls.Wpf.ControlsV3.DatePicker.SelectedDateChangedEvent">
+            <summary>
+            Event for the DateSelectionChanged raised when the date changes
+            </summary>
+        </member>
+        <member name="E:Stimulsoft.Controls.Wpf.ControlsV3.DatePicker.SelectedDateChanged">
+            <summary>
+            Event for the DateSelectionChanged raised when the date changes
+            </summary>
+        </member>
+        <member name="E:Stimulsoft.Controls.Wpf.ControlsV3.DatePicker.PropertyChanged">
+            <summary>
+            Event raised when a property is changed
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.ControlsV3.DatePicker.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            Raises the property changed event
+            </summary>
+            <param name="e">The arguments to pass</param>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.ControlsV3.DatePicker.OnApplyTemplate">
+            <summary>
+            Override to get the templated controls
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.ControlsV3.DatePicker.DatesListSelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            On selected item change of the selector control.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.ControlsV3.DatePicker.ReBindListOfDays">
+            <summary>
+            Rebinds to the dates.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.ControlsV3.DatePicker.BackButtonClick(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Moves the month currently being viewed backward.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.ControlsV3.DatePicker.ChangeDate">
+            <summary>
+            Changes the current date.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.ControlsV3.DatePicker.ForwardButtonClick(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Moves the month currently view forward.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.ControlsV3.DateSelectedChangedEventHandler">
+            <summary>
+            Delegate for the DateSelectedChanged event
+            </summary>
+            <param name="sender">The object that raised the event</param>
+            <param name="e">Event arguments for the DateSelectedChanged event</param>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.ControlsV3.DateSelectedChangedRoutedEventArgs">
+            <summary>
+            Routed event args for the DateSelectedChanged
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.ControlsV3.DateSelectedChangedRoutedEventArgs.#ctor(System.Windows.RoutedEvent)">
+            <summary>
+            Constructor for the event args
+            </summary>
+            <param name="routedEvent">The event for which the args will be passed</param>
+        </member>
+        <member name="P:Stimulsoft.Controls.Wpf.ControlsV3.DateSelectedChangedRoutedEventArgs.NewDate">
+            <summary>
+            Gets or sets the new date that was set
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.Wpf.ControlsV3.DateSelectedChangedRoutedEventArgs.OldDate">
+            <summary>
+            Gets or sets the old date that was set
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.ControlsV3.CellSizeConverter">
+            <summary>
+            Converter to calculate the size for the cell of the calender
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.ControlsV3.CellSizeConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Converter for the calender control to measure the widths to calculate
+            </summary>
+            <param name="value">Pass the Actual width of the parent control</param>
+            <param name="targetType">Target type</param>
+            <param name="parameter">Pass widthCell to calculate the width a particular cell.
+            Pass widthCellContainer to calculate the witdth of the parent control</param>
+            <param name="culture">The current culture in use</param>
+            <returns>Returns the new width to use</returns>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.ControlsV3.DateHelper">
+            <summary>
+            Helper class for dates
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Controls.Wpf.ControlsV3.DateHelper.daysArrays">
+            <summary>
+            Caches the days in a dict where the key is the number of days the key is a hash of month, year.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.ControlsV3.DateHelper.GetDaysOfMonth(System.Int32,System.Int32,System.DateTime,System.DateTime)">
+            <summary>
+            Generates an array of days in a month
+            </summary>
+            <param name="month">The month to get the days for </param>
+            <param name="year">The year to get the days for </param>
+            <param name="maxDate">The max date to generate enabled cells</param>
+            <param name="minDate">The min date to generate enabled cells</param>
+            <returns>Returns an int array full of days in a month</returns>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.ControlsV3.DateHelper.IsDateWithinRange(System.DateTime,System.DateTime,Stimulsoft.Controls.Wpf.ControlsV3.DayCell)">
+            <summary>
+            Checks if the specified date is greater than 
+            </summary>
+            <param name="minDate">The min date</param>
+            <param name="maxDate">The max date</param>
+            <param name="cell">The cell to check</param>
+            <returns>Returns true if the cell is greater</returns>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.ControlsV3.DateHelper.GetDayOfWeek(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Gets the day of week for a specific date
+            </summary>
+            <param name="year">The year of the date</param>
+            <param name="month">The month of the date</param>
+            <param name="day">The day of the date</param>
+            <returns>Returns the day of week</returns>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.ControlsV3.DateHelper.GetMonthDisplayName(System.Int32)">
+            <summary>
+            Gets a string that represents the string for the current month
+            </summary>
+            <param name="month">a number from 1 to 12</param>
+            <returns>Returns the string that represents the month</returns>
+            <exception cref="T:System.ArgumentException">Thrown if the month number is less than 1 or greater than 12</exception>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.ControlsV3.DateHelper.MoveMonthForward(System.Int32,System.Int32,System.Int32@,System.Int32@)">
+            <summary>
+            Moves one month forward
+            </summary>
+            <param name="currentMonth">The current month</param>
+            <param name="currentYear">The current year</param>
+            <param name="monthToGetNext">The next month</param>
+            <param name="yearTogetNext">The relative year for the new month</param>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.ControlsV3.DateHelper.MoveMonthBack(System.Int32,System.Int32,System.Int32@,System.Int32@)">
+            <summary>
+            Move one month back
+            </summary>
+            <param name="currentMonth">The current month</param>
+            <param name="currentYear">The current year</param>
+            <param name="monthToGetPrevious">The previous month</param>
+            <param name="yearToGetPrevious">The relative year for the new month</param>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.ControlsV3.DayCell">
+            <summary>
+            Object to represent a single day as a cell
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.Wpf.ControlsV3.DayCell.DayNumber">
+            <summary>
+            gets the day number for the cell
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.Wpf.ControlsV3.DayCell.MonthNumber">
+            <summary>
+            gets the month number for the cell
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.Wpf.ControlsV3.DayCell.YearNumber">
+            <summary>
+            gets the year number for the cell
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.Wpf.ControlsV3.DayCell.IsEnabled">
+            <summary>
+            Gets or sets the Enabled status
+            </summary>
+        </member>
+        <member name="E:Stimulsoft.Controls.Wpf.ControlsV3.DayCell.PropertyChanged">
+            <summary>
+            Property changed event for the enabled status
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.ControlsV3.DayCell.#ctor(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="day">The day to store</param>
+            <param name="month">The month to store</param>
+            <param name="year">The year to store</param>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.ControlsV3.MathUtil">
+            <summary>
+            Helper class that contains methods that execute mathematical operations
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.ControlsV3.MathUtil.IncrementDecrementNumber(System.String,System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            Validates the string passed by parsing it as int and checking if it is inside the bounds specified 
+            then the resulting int will be incremented/decremented
+            </summary>
+            <param name="num">The string to parse as int and increment/decrement</param>
+            <param name="minValue">The min value for the bound checking</param>
+            <param name="maxVal">The max value for the bounds checking</param>
+            <param name="increment">Pass true to increment and false to decrement</param>
+            <returns>Returns the new number incremented or decremeneted</returns>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.ControlsV3.MathUtil.ValidateNumber(System.String,System.Int32,System.Int32)">
+            <summary>
+            Parses the number and makes sure that it is within the bounds specified
+            </summary>
+            <param name="newNum">The string to parse and validate</param>
+            <param name="minValue">The min value for the bound checking</param>
+            <param name="maxValue">The max value for the bound checking</param>
+            <returns>Returns the int that was constructed from the string + bound checking</returns>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.ControlsV3.MathUtil.ValidateNumber(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            makes sure that the number is within the bounds specified
+            </summary>
+            <param name="newNum">The number to validate</param>
+            <param name="minValue">The min value for the bound checking</param>
+            <param name="maxValue">The max value for the bound checking</param>
+            <returns>Returns the int that was constructed from the string + bound checking</returns>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.ControlsV3.YearValidation">
+            <summary>
+            Validation rule for the Year
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.ControlsV3.YearValidation.Validate(System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Validation for the year
+            </summary>
+            <param name="value">The year value</param>
+            <param name="cultureInfo">The culture info</param>
+            <returns>Returns the validation result</returns>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.ControlsV3.TimePicker">
+            <summary>
+            Time Picker as a control that lets the user select a specific time
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Controls.Wpf.ControlsV3.TimePicker.SelectedTimeProperty">
+            <summary>
+            Backing store for the selected timestamp 
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.Wpf.ControlsV3.TimePicker.SelectedTime">
+            <summary>
+            Gets or sets the selected timestamp 
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.Wpf.ControlsV3.TimePicker.SelectedHour">
+            <summary>
+            Gets or sets the selected Hour
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.Wpf.ControlsV3.TimePicker.SelectedDays">
+            <summary>
+            Gets or sets the selected Hour
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.Wpf.ControlsV3.TimePicker.SelectedMilliSeconds">
+            <summary>
+            Gets or sets the selected Hour
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Controls.Wpf.ControlsV3.TimePicker.SelectedMinuteProperty">
+            <summary>
+            Backing store for the selected minsutes
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.Wpf.ControlsV3.TimePicker.SelectedMinute">
+            <summary>
+            Gets or sets the selected minutes
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Controls.Wpf.ControlsV3.TimePicker.SelectedSecondProperty">
+            <summary>
+            Backing store for the selected second
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.Wpf.ControlsV3.TimePicker.SelectedSecond">
+            <summary>
+            Gets or sets the selected second
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Controls.Wpf.ControlsV3.TimePicker.SelectedTimeChangedEvent">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.ControlsV3.TimePicker.OnApplyTemplate">
+            <summary>
+            override to hook to the Control template elements
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.ControlsV3.TimeSelectedChangedEventHandler">
+            <summary>
+            Delegate for the TimeSelectedChanged event
+            </summary>
+            <param name="sender">The object raising the event</param>
+            <param name="e">The routed event arguments</param>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.ControlsV3.TimeSelectedChangedRoutedEventArgs">
+            <summary>
+            Routed event arguments for the TimeSelectedChanged event
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.Wpf.ControlsV3.TimeSelectedChangedRoutedEventArgs.NewTime">
+            <summary>
+            Gets or sets the new time
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.Wpf.ControlsV3.TimeSelectedChangedRoutedEventArgs.OldTime">
+            <summary>
+            Gets or sets the old time
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.ControlsV3.TimeSelectedChangedRoutedEventArgs.#ctor(System.Windows.RoutedEvent)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="routedEvent">The event that is raised </param>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.ControlsV3.TimeSpanPicker">
+            <summary>
+            Control to select a specific date
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.ControlsV3.IsCurrentMonthConverter">
+            <summary>
+            Converter used to compare 2 months
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.ControlsV3.IsCurrentMonthConverter.Convert(System.Object[],System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Compares 2 months together
+            </summary>
+            <param name="values">The currently view month and the other month to check</param>
+            <param name="targetType">Target type</param>
+            <param name="parameter">The parameter to use</param>
+            <param name="culture">The current culture in use</param>
+            <returns>Returns true if there is a match between the 2 months</returns>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.ControlsV3.MonthConverter">
+            <summary>
+            converts the date string to the value
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.ControlsV3.MonthConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Converts the month from a number to the actual string
+            </summary>
+            <param name="value">The value as integer</param>
+            <param name="targetType">Target type</param>
+            <param name="parameter">The parameter to use</param>
+            <param name="culture">The current culture in use</param>
+            <returns>Returns the selected item to select for the drop down list</returns>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.ControlsV3.MonthConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Converts the value back from ComboBoxitem to a number that can be set for the current month
+            </summary>
+            <param name="value">The comboBoxItem Selected</param>
+            <param name="targetType">Target type</param>
+            <param name="parameter">The parameter to use</param>
+            <param name="culture">The current culture in use</param>
+            <returns>Returns a number that represents the month selected</returns>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.ControlsV3.OneWayMultiValueConverter">
+            <summary>
+            Base class for multivalue converters that do not implement the ConvertBack method
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.ControlsV3.OneWayMultiValueConverter.Convert(System.Object[],System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Converts a value. Used in data binding. Override this method (sealed).
+            </summary>
+            <param name="values">The array of values that the source bindings in the MultiBinding produces</param>
+            <param name="targetType">The type of the binding target property</param>
+            <param name="parameter">The converter parameter to use</param>
+            <param name="culture">The culture to use in the converter</param>
+            <returns>A converted value</returns>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.ControlsV3.OneWayMultiValueConverter.ConvertBack(System.Object,System.Type[],System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Unimplemented method for converting back. This converter can only be used for one-way binding.
+            </summary>
+            <param name="value">Unused parameter</param>
+            <param name="targetTypes">Unused parameter</param>
+            <param name="parameter">Unused parameter</param>
+            <param name="culture">Unused parameter</param>
+            <returns>Always throws an exception</returns>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.ControlsV3.OneWayValueConverter">
+            <summary>
+            Base class for value converters that do not implement the ConvertBack method.
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.ControlsV3.OneWayValueConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Converts a value. Used in data binding. Override this method (sealed).
+            Decorate the method with the type of return data (ValueConversion attribute).
+            </summary>
+            <param name="value">The value produced by the binding source</param>
+            <param name="targetType">The type of the binding target property</param>
+            <param name="parameter">The converter parameter to use</param>
+            <param name="culture">The culture to use in the converter</param>
+            <returns>A converted value</returns>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.ControlsV3.OneWayValueConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Unimplemented method for converting back. This converter can only be used for one-way binding.
+            </summary>
+            <param name="value">Unused parameter</param>
+            <param name="targetType">Unused parameter</param>
+            <param name="parameter">Unused parameter</param>
+            <param name="culture">Unused parameter</param>
+            <returns>Always throws an exception</returns>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.ControlsV3.Months">
+            <summary>
+            Enum that specifies the list of months
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Controls.Wpf.ControlsV3.Months.January">
+            <summary>
+            January 
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Controls.Wpf.ControlsV3.Months.February">
+            <summary>
+            February
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Controls.Wpf.ControlsV3.Months.March">
+            <summary>
+            March
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Controls.Wpf.ControlsV3.Months.April">
+            <summary>
+            April
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Controls.Wpf.ControlsV3.Months.May">
+            <summary>
+            May
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Controls.Wpf.ControlsV3.Months.June">
+            <summary>
+            June
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Controls.Wpf.ControlsV3.Months.July">
+            <summary>
+            July
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Controls.Wpf.ControlsV3.Months.August">
+            <summary>
+            August
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Controls.Wpf.ControlsV3.Months.September">
+            <summary>
+            September
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Controls.Wpf.ControlsV3.Months.October">
+            <summary>
+            October
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Controls.Wpf.ControlsV3.Months.November">
+            <summary>
+            November
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Controls.Wpf.ControlsV3.Months.December">
+            <summary>
+            December
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.ControlsV3.Notification.OnApplyTemplate">
+            <summary>
+            Override to get the templated controls
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.ControlsV3.PropertyGridV2SelectColorsControl">
+            <summary>
+            PropertyGridV2SelectColorsControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.ControlsV3.PropertyGridV2SelectColorsControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Controls.Wpf.ControlsV3.StiRtfSelectionAlign.Left">
+            <summary>
+            The text is aligned to the left.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Controls.Wpf.ControlsV3.StiRtfSelectionAlign.Right">
+            <summary>
+            The text is aligned to the right.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Controls.Wpf.ControlsV3.StiRtfSelectionAlign.Center">
+            <summary>
+            The text is aligned in the center.
+            </summary>
+        </member>
+        <member name="F:Stimulsoft.Controls.Wpf.ControlsV3.StiRtfSelectionAlign.Justify">
+            <summary>
+            The text is justified.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.ControlsV3.StiGdiRichTextBox">
+            <summary>
+            Represents a Windows rich text box control, with some impovements.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.Exceptions.StiWpfExceptionPreviewWindow">
+            <summary>
+            StiWpfExceptionPreviewWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.Exceptions.StiWpfExceptionPreviewWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.Wpf.Exceptions.StiWpfExceptionProvider.HideMessages">
+            <summary>
+            Gets or sets a value indicating whether not to show the message from engine of the message.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.Wpf.Exceptions.StiWpfExceptionProvider.HideExceptions">
+            <summary>
+            Gets or sets the value, which indicates not to show the exception from engine of the exception.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.Exceptions.StiWpfExceptionWindow">
+            <summary>
+            StiWpfExceptionWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.Exceptions.StiWpfExceptionWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.Helpers.StiBrushHelper.BrushToWpfBrush(Stimulsoft.Base.Drawing.StiBrush)">
+            <summary>
+            Returns the wpf brush from the report brush.
+            </summary>
+            <param name="brush">Report brush.</param>
+            <returns>Wpf brush.</returns>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.Helpers.StiWpfDrawing.DrawSelectedRectangle(System.Windows.Media.DrawingContext,System.Int32,System.Windows.Media.Brush,System.Windows.Rect)">
+            <summary>
+            Draws a selected rectangle specified by a Rectangle structure.
+            </summary>
+            <param name="g">The Graphics to draw on.</param>
+            <param name="size">The size of selected point.</param>
+            <param name="brush">Brush to draw selected point.</param>
+            <param name="rect">RectangleD structure that represents the rectangle to draw selections.</param>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.Helpers.StiWpfDrawing.DrawSelectedPoint(System.Windows.Media.DrawingContext,System.Double,System.Windows.Media.Brush,System.Double,System.Double)">
+            <summary>
+            Draws a selected point specified by a coordinate pair.
+            </summary>
+            <param name="g">The Graphics to draw on.</param>
+            <param name="size">The size of selected point.</param>
+            <param name="brush">Brush to draw selected point.</param>
+            <param name="x">x-coordinate of selected point.</param>
+            <param name="y">y-coordinate of selected point</param>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.Help.StiWpfHelpViewerWindow">
+            <summary>
+            StiWpfHelpViewerWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.Help.StiWpfHelpViewerWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.AccountMessageBoxDoNotShowAggainWindow">
+            <summary>
+            AccountMessageBoxDoNotShowAggainWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.AccountMessageBoxDoNotShowAggainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.CloudLongMessageBoxWindow">
+            <summary>
+            CloudLongMessageBoxWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.CloudLongMessageBoxWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.CloudMessageBoxWindow">
+            <summary>
+            CloudMessageBoxWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.CloudMessageBoxWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.StiMessageBoxWindow">
+            <summary>
+            StiMessageBoxWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.StiMessageBoxWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.Wpf.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Controls.Wpf.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.Ribbon22.StiNewCloudFolderWindow">
+            <summary>
+            StiNewCloudFolderWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.Ribbon22.StiNewCloudFolderWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.Ribbon22.StiNewFolderWindow">
+            <summary>
+            StiNewFolderWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.Ribbon22.StiNewFolderWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.Ribbon22.StiOpenAddAPlaceUserControl">
+            <summary>
+            StiOpenAddAPlaceUserControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.Ribbon22.StiOpenAddAPlaceUserControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.Ribbon22.StiOpenImportUserControl">
+            <summary>
+            StiOpenImportUserControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.Ribbon22.StiOpenImportUserControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.Ribbon22.StiOpenRecentDocumentsUserControl">
+            <summary>
+            StiOpenRecentDocumentsUserControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.Ribbon22.StiOpenRecentDocumentsUserControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.Ribbon22.StiOpenRecentFoldersUserControl">
+            <summary>
+            StiOpenRecentFoldersUserControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.Ribbon22.StiOpenRecentFoldersUserControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.Ribbon22.StiOpenRecentUserControl">
+            <summary>
+            StiOpenRecentUserControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.Ribbon22.StiOpenRecentUserControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.Ribbon22.StiOpenStimulsoftCloudUserControl">
+            <summary>
+            StiOpenStimulsoftCloudUserControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.Ribbon22.StiOpenStimulsoftCloudUserControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.Ribbon22.StiOpenThisPCUserControl">
+            <summary>
+            StiOpenThisPCUserControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.Ribbon22.StiOpenThisPCUserControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.Ribbon22.StiRenameWindow">
+            <summary>
+            StiRenameWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.Ribbon22.StiRenameWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.Ribbon22.StiReplaceCloudFileWindow">
+            <summary>
+            StiReplaceCloudFileWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.Ribbon22.StiReplaceCloudFileWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.Ribbon22.StiReplaceFileWindow">
+            <summary>
+            StiReplaceFileWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.Ribbon22.StiReplaceFileWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.Ribbon22.StiRequestChangesSavingCloudWindow">
+            <summary>
+            StiRequestChangesSavingCloudWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.Ribbon22.StiRequestChangesSavingCloudWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.Ribbon22.StiRibbonOpenUserControl">
+            <summary>
+            StiRibbonOpenUserControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.Ribbon22.StiRibbonOpenUserControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.Ribbon22.StiRibbonSaveAsUserControl">
+            <summary>
+            StiRibbonSaveAsUserControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.Ribbon22.StiRibbonSaveAsUserControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.Ribbon22.StiSaveAsRecentFoldersUserControl">
+            <summary>
+            StiSaveAsRecentFoldersUserControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.Ribbon22.StiSaveAsRecentFoldersUserControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.Ribbon22.StiSaveAsStimulsoftCloudUserControl">
+            <summary>
+            StiSaveAsStimulsoftCloudUserControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.Ribbon22.StiSaveAsStimulsoftCloudUserControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.Ribbon22.StiSaveAsThisPCUserControl">
+            <summary>
+            StiSaveAsThisPCUserControl
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.Ribbon22.StiSaveAsThisPCUserControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Stimulsoft.Controls.Wpf.Ribbon22.StiSaveThisFileWindow">
+            <summary>
+            StiSaveThisFileWindow
+            </summary>
+        </member>
+        <member name="M:Stimulsoft.Controls.Wpf.Ribbon22.StiSaveThisFileWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+    </members>
+</doc>

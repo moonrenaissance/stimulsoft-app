@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stimulsoft-App", "Stimulsoft-App\Stimulsoft-App.csproj", "{CEE97CA0-34F6-4611-B037-BB3B44D12F3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEE97CA0-34F6-4611-B037-BB3B44D12F3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEE97CA0-34F6-4611-B037-BB3B44D12F3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEE97CA0-34F6-4611-B037-BB3B44D12F3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEE97CA0-34F6-4611-B037-BB3B44D12F3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7628C6DB-3DF3-4D3B-BDE8-41168E162138}
+	EndGlobalSection
+EndGlobal
