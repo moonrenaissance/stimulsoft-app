@@ -1,0 +1,55 @@
+﻿<Window x:Class="Stimulsoft_App.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Stimulsoft_App"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        
+        Title="Stimulsoft-App"
+        Height="450" MinHeight="380"
+        Width="700" MinWidth="400"
+        WindowStartupLocation="CenterScreen" Cursor="">
+
+    <Grid Cursor="" MouseDown="DragWindow" Background="{DynamicResource MaterialDesignPaper}">
+        <StackPanel VerticalAlignment="Center" Cursor="">
+            <CheckBox x:Name="chkDB"
+                  HorizontalAlignment="Center"
+                  Content="DataBase"
+                  IsChecked="False"
+                  Style="{StaticResource MaterialDesignFilterChipPrimaryCheckBox}" />
+            <Label VerticalAlignment="Center" Cursor="" HorizontalAlignment="Center">OR</Label>
+
+            <StackPanel HorizontalAlignment="Center" Orientation="Horizontal" Margin="22 0 0 0">
+                <TextBox x:Name="fileText" Height="24" Width="200"
+                        materialDesign:HintAssist.HelperText="Json link">
+                </TextBox>
+
+
+                <Button HorizontalAlignment="Right"
+                          Width="50"
+                          Content="{materialDesign:PackIcon File}"
+                          IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}"
+                          Style="{StaticResource MaterialDesignFlatButton}"
+                          ToolTip="Choose File" Cursor="Hand" 
+                          Click="chooseFile"/>
+            </StackPanel>
+
+            <Button Margin="0 100 0 0"
+                    Width="140"
+                    Content="Start Program"
+                    IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}"
+                    Style="{StaticResource MaterialDesignOutlinedButton}"
+                    ToolTip="Start Program" Cursor="Hand"
+                    Click="startProgram"/>
+        </StackPanel>
+    </Grid>
+</Window>
