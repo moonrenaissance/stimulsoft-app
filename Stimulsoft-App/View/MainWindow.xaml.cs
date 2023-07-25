@@ -33,16 +33,6 @@ namespace Stimulsoft_App
             }
         }
 
-        private void Hide(object sender, RoutedEventArgs e)
-        {
-            WindowState = WindowState.Minimized;
-        }
-
-        private void Close(object sender, RoutedEventArgs e)
-        {
-            Application.Current.Shutdown();
-        }
-
         private void startProgram(object sender, RoutedEventArgs e)
         {
             if (chkDB.IsChecked == true)
