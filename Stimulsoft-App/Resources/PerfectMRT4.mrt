@@ -238,7 +238,7 @@
               <Name>Text5</Name>
               <Page isRef="12" />
               <Parent isRef="15" />
-              <Text>Just report.</Text>
+              <Text>Just a report.</Text>
               <TextBrush>[158:158:158]</TextBrush>
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <Type>Expression</Type>
