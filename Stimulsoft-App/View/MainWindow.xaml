@@ -14,10 +14,10 @@
         Background="{DynamicResource MaterialDesignPaper}"
         FontFamily="{DynamicResource MaterialDesignFont}"
         
-        Title="Stimulsoft-App"
+        Title="Stimulsoft Reporting App"
         Height="450" MinHeight="380"
         Width="700" MinWidth="400"
-        WindowStartupLocation="CenterScreen" Cursor="">
+        WindowStartupLocation="CenterScreen" Cursor="" Icon="/View/report.png">
 
     <Grid Cursor="" MouseDown="DragWindow" Background="{DynamicResource MaterialDesignPaper}">
         <StackPanel VerticalAlignment="Center" Cursor="">

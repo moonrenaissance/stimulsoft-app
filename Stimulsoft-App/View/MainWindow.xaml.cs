@@ -94,7 +94,7 @@ namespace Stimulsoft_App
                 
                 dynamic jsonObject = JsonConvert.DeserializeObject(json);
 
-                //заполняем notes
+                //Заполняем notes
                 if(jsonObject.Notes == null) 
                 {
                     throw new Exception("Ваш json файл не содержит заметок");
@@ -119,7 +119,7 @@ namespace Stimulsoft_App
                     }
                 }
 
-                //заполняем tags
+                //Заполняем tags
                 if(jsonObject.Tags != null)
                 {
                     foreach (dynamic tag in jsonObject.Tags)
@@ -157,14 +157,14 @@ namespace Stimulsoft_App
             openFileDialog.Filter = "JPEG Files (*.json)|*.json";
 
 
-            // Display OpenFileDialog by calling ShowDialog method 
+            //Вызываем метод, позволяющий открыть файл через диалоговое окно
             Nullable<bool> result = openFileDialog.ShowDialog();
 
 
-            // Get the selected file name and display in a TextBox 
+            //Достаём файл и выводим на дисплей 
             if (result == true)
             {
-                // Open document 
+                //Открываем документ
                 string filename = openFileDialog.FileName;
                 fileText.Text = filename;
             }
