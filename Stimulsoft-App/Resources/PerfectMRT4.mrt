@@ -155,7 +155,7 @@
       <Components isList="true" count="12">
         <PageFooterBand1 Ref="13" type="PageFooterBand" isKey="true">
           <Brush>Transparent</Brush>
-          <ClientRectangle>0,1289.2,749,20</ClientRectangle>
+          <ClientRectangle>0,1507.4,749,20</ClientRectangle>
           <Components isList="true" count="1">
             <Text7 Ref="14" type="Text" isKey="true">
               <Border>None;[58:78:94];1;Solid;False;4;Black</Border>
@@ -377,6 +377,7 @@
               <VertAlignment>Center</VertAlignment>
             </Text2>
             <Text3 Ref="27" type="Text" isKey="true">
+              <Border>Bottom;[255:255:255];1;Solid;False;4;Black</Border>
               <Brush>[77:182:172]</Brush>
               <ClientRectangle>0,40,110,50</ClientRectangle>
               <ComponentStyle>Header3</ComponentStyle>
@@ -487,7 +488,7 @@ AAAA4AAAAPAAAAE=</ImageBytes>
           <DataSourceName>Notes</DataSourceName>
           <Expressions isList="true" count="0" />
           <Filters isList="true" count="1">
-            <value>date,LessThan,_x0031_2_x002F_31_x002F_1899,_x0031_2_x002F_30_x002F_2021,DateTime</value>
+            <value>date,LessThan,_x0031__x002F_1_x002F_1900,_x0031_2_x002F_30_x002F_2021,DateTime</value>
           </Filters>
           <KeepChildTogether>True</KeepChildTogether>
           <KeepDetails>KeepDetailsTogether</KeepDetails>
@@ -689,6 +690,7 @@ YII=</ImageBytes>
               <VertAlignment>Center</VertAlignment>
             </Text13>
             <Text14 Ref="41" type="Text" isKey="true">
+              <Border>Bottom;[255:255:255];1;Solid;False;4;Black</Border>
               <Brush>[49:133:155]</Brush>
               <ClientRectangle>0,40,110,50</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -815,7 +817,7 @@ AAAA4AAAAPAAAAE=</ImageBytes>
           <DataSourceName>Notes</DataSourceName>
           <Expressions isList="true" count="0" />
           <Filters isList="true" count="1">
-            <value>date,GreaterThan,_x0031_2_x002F_31_x002F_1899,_x0031_2_x002F_30_x002F_2021,DateTime</value>
+            <value>date,GreaterThan,_x0031__x002F_1_x002F_1900,_x0031_2_x002F_30_x002F_2021,DateTime</value>
           </Filters>
           <KeepChildTogether>True</KeepChildTogether>
           <KeepDetails>KeepDetailsTogether</KeepDetails>
@@ -936,11 +938,11 @@ YII=</ImageBytes>
   </ReferencedAssemblies>
   <ReportAlias>MasterDetail</ReportAlias>
   <ReportAuthor>Stimulsoft</ReportAuthor>
-  <ReportChanged>7/25/2023 8:50:53 PM</ReportChanged>
+  <ReportChanged>7/31/2023 4:10:46 PM</ReportChanged>
   <ReportCreated>5/29/2004 10:59:00 AM</ReportCreated>
   <ReportDescription>The sample demonstrates how to create a Master-Detail report.</ReportDescription>
-  <ReportFile>C:\Users\777\Desktop\PerfectMRT.mrt</ReportFile>
-  <ReportGuid>9a787752f793455ca9ed132f7d91c9f7</ReportGuid>
+  <ReportFile>C:\Users\777\Desktop\Project\stimulsoft-app\Stimulsoft-App\Resources\PerfectMRT4.mrt</ReportFile>
+  <ReportGuid>9900f5d304964a03a722f01998ffbfb7</ReportGuid>
   <ReportName>MasterDetail</ReportName>
   <ReportUnit>HundredthsOfInch</ReportUnit>
   <ReportVersion>2023.2.8.0</ReportVersion>

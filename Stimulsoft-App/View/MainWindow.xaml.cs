@@ -39,13 +39,22 @@ namespace Stimulsoft_App
 
                 if (chkDB.IsChecked == true)
                 {
+                    string NotesResult = "";
+
                     string notes = await returnJson("https://localhost:7072/api/Notes");
-                    notes = notes.Substring(0, notes.Length - 2);
-
                     string reminders = await returnJson("https://localhost:7072/api/Notes/Reminders");
-                    reminders = reminders.Substring(1);
 
-                    json = $"{{ Notes: {notes}}}, {reminders},";
+                    if (notes != "[]")
+                    {
+                        NotesResult += notes.Substring(1, notes.Length - 2) + ",";
+                    }
+
+                    if (reminders != "[]")
+                    {
+                        NotesResult += reminders.Substring(1, reminders.Length - 2) + ",";
+                    }
+
+                    json = $"{{ Notes: [{NotesResult}],";
                     string tags = await returnJson("https://localhost:7072/api/Tags");
                     json += " Tags: " + tags + "}";
                 }
@@ -120,7 +129,7 @@ namespace Stimulsoft_App
                 }
 
                 //Заполняем tags
-                if(jsonObject.Tags != null)
+                if (jsonObject.Tags != null)
                 {
                     foreach (dynamic tag in jsonObject.Tags)
                     {
